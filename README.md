@@ -199,64 +199,39 @@ The administration layer provides centralized management of users, roles, permis
  
 ---
 
-## 🧠 **Key Engineering Takeaways:**
+## 🔒 Security, Privacy & Responsible Use:
+CyberLure sends simulated phishing and handles employee behavioural data, so it was built to be safe and self-contained by design.
+- **Authorized use only** — the phishing functionality is intended exclusively for authorized, internal security-awareness and security-testing programmes.
+- **Offline / air-gapped** — runs entirely on a single host with no external SaaS and no runtime internet dependency; sensitive data never leaves the organization's network.
+- **Data privacy** — all training, assessment, and behavioural data stays in the local database; the AI features degrade gracefully to a deterministic offline generator when no API key is configured.
+- **Role-based access control** — administrative functions, campaign management, and reporting are gated by roles and permissions.
+- **Signed tracking tokens** — recipient links carry per-recipient signed tokens rather than exposing identifiers, and email-open/click tracking is scoped to the campaign.
+- **No hardcoded secrets** — credentials and API keys are supplied via environment/settings, never committed to source.
+- **Synthetic showcase data** — every screenshot in this repository uses fictional employees (@acme.example); no real personal data is shown.
 
-CyberLure demonstrates the integration of cybersecurity, software engineering, automation, and analytics into a single working platform.
+---
 
-Security Engineering
+## 🗺️ Roadmap / Future Enhancements:
+- SSO / SAML authentication alongside the existing LDAP/AD integration.
+- Multilingual content (e.g. English & Arabic) across training, assessments, and games.
+- Expanded Tier 2 & Tier 3 games and additional scenario packs.
+- Scheduled & recurring campaigns with automated cadence.
+- REST API / SIEM export for feeding human-risk signals into existing security tooling.
+- Containerized deployment (Docker Compose) for one-command self-hosting.
 
-Modelled real-world phishing and social-engineering techniques into controlled simulations and educational exercises.
+---
 
-Full-Stack Engineering
+## 🧗 Challenges & Lessons Learned:
+- **Offline video watch-tracking** — enforcing "watch the full video before the assessment" required a furthest-watched cap, resume-on-reload, and handling mobile-browser quirks (e.g. Chrome pausing timeupdate events during seeks) — all without any external video platform.
+- **Reliable mobile playback** — a DevTools-detection heuristic was falsely pausing videos on phones (the browser's address bar tripped a window-size check); scoping it to desktop-only fixed legitimate playback.
+- **A defensible human-risk score** — turning raw signals (clicks, reports, training gaps) into a single 0–100 score meant only counting phishing a user engaged with, so an unopened lure reads as "no signal" rather than false safety.
+- **Air-gapped AI** — content assistance uses Claude when available but falls back to a deterministic generator, so the platform is fully functional with zero connectivity.
+- **Bulletproof, offline email** — campaign and certificate emails render as inline-SVG, self-contained HTML (no CDN, no remote images) so they display consistently across mail clients on isolated networks.
 
-Designed and implemented the application's backend, database model, frontend, workflows, dashboards, reporting, and administrative interfaces.
+---
 
-Human-Risk Analytics
-
-Converted behavioural and training signals into an organizational and individual human-risk model.
-
-Workflow Automation
-
-Connected phishing behaviour directly to remediation:
-
-Detect → Assign → Train → Assess → Verify → Re-measure
-
-Identity & Directory Integration
-
-Implemented RBAC and LDAP/Active Directory integration to support organizational user management.
-
-Offline-First Design
-
-Designed the application to minimize external dependencies and support isolated or air-gapped environments.
-
-AI-Assisted Development
-
-Used Claude Code and AI-assisted development workflows during implementation for software engineering support, troubleshooting, content generation, and assessment-question creation.
-
-For training assessments specifically, AI was used to generate an initial questionnaire based on the content of the training videos. The generated material was then reviewed, adapted, and integrated into the application's assessment workflow.
-
-🔐 Security & Privacy
-
-This repository is a portfolio and demonstration project.
-
-All screenshots and example records use synthetic data and fictional identities such as @acme.example.
-
-No real employee information is included.
-No real credentials are included.
-No real personal data is included.
-Phishing scenarios are simulated.
-The phishing functionality is intended only for authorized security-awareness and testing environments.
-🚀 Project Summary
-
-CyberLure demonstrates a complete security-awareness lifecycle:
-
-Educate → Simulate → Measure → Remediate → Verify → Improve
-
-Rather than treating awareness training and phishing simulations as separate activities, the platform connects them into a continuous feedback loop where employee behaviour can drive targeted training and measurable risk reduction.
-
-The project combines cybersecurity domain knowledge, full-stack development, identity integration, workflow automation, analytics, gamification, and AI-assisted development into a single self-hosted platform designed for real-world organizational environments.
-
-
-All screenshots and example records use synthetic data and fictional identities such as @acme.example. No real employee information, credentials, or personal data are included.
-
-The phishing functionality is intended for authorized security-awareness and testing environments only.
+## 🧠 Key Takeaways:
+- Built a complete security-awareness platform end-to-end — five integrated capabilities (Mandatory Training, Phishing Awareness, Phishing Campaigns, IT Training, Gamification) plus dashboards, reporting, and administration — demonstrating both security domain expertise and full-stack engineering.
+- Modelled real adversary techniques (BEC, homoglyphs, quishing, MFA-fatigue, credential harvesting, insider threat, deepfakes) into safe, teachable simulations and games.
+- Turned employee behavior into a measurable, defensible human-risk score that leadership can act on, closed by an automated detect → train → verify remediation loop.
+- Engineered for the real world: offline-capable, dependency-light, LDAP-integrated, and privacy-conscious by design.
