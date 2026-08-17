@@ -1,262 +1,166 @@
 # 🛡️ CyberLure: A Phishing Simulation & Security Awareness Platform
-> #### Phishing Simulations → Awareness Training → Gamified Learning → Human-Risk Analytics
+> ##### (Mandatory Training · Phishing Awareness · Phishing Campaigns · IT Training · Gamification)
 
-## 🎯 Project Objective:
 
-Many security incidents involve human behaviour — whether it is clicking a malicious link, opening an unsafe attachment, submitting credentials, or failing to recognize a social-engineering attempt.
 
-I wanted to build a platform that could address the complete security-awareness lifecycle in one place:
+## 🎯 Objective
 
-                  Simulate → Measure → Train → Test → Remediate → Re-measure
+Most security incidents start with a person, not a firewall. The goal of CyberLure was to build — from the ground up — a single platform that lets a security team **train employees, safely phish them to test that training, remediate the ones who fall for it, and prove the human-risk needle is moving** — without depending on any external SaaS or internet connectivity.
 
-CyberLure allows a security team to safely run phishing simulations against its own users, identify areas of weakness, automatically assign appropriate training, verify learning outcomes, and use behavioural data to measure changes in human risk.
+The platform closes the full loop:
 
-The goal was not simply to build another phishing simulator, but to demonstrate how security awareness, behavioural data, automation, and analytics can work together as a single platform.
+**Train → Simulate a phish → Track who clicks → Auto-assign remedial training → Verify it was watched & passed → Issue a certificate → Re-measure risk.**
 
-📊 Platform Overview
+---
 
-CyberLure combines four major capabilities:
+## 🧰 Tech Stack
 
-🎣 Phishing Simulation
+| Layer | Technology |
+|---|---|
+| **Backend** | Python · Flask · SQLAlchemy |
+| **Database** | SQLite (zero-dependency default) · PostgreSQL/MySQL-ready |
+| **Frontend** | Jinja2 · vanilla JavaScript · inline SVG (no CDN — offline-safe) |
+| **Auth & Directory** | Session auth + role-based access control · LDAP/Active Directory (ldap3) |
+| **Email** | SMTP delivery · open/click tracking pixels & per-recipient tokens |
+| **Certificates** | Headless Chromium → PDF generation |
+| **AI (optional)** | Anthropic Claude API for content assistance, with a deterministic offline fallback |
+| **Deployment** | Runs on a single host · **offline / air-gapped mode** for regulated networks |
 
-Create and manage realistic security-awareness campaigns using simulated scenarios such as:
+---
 
-Typosquatted domains
-Display-name spoofing
-Business Email Compromise (BEC)
-Credential-harvesting scenarios
-QR-code phishing (quishing)
-Cloud-file sharing lures
-Attachment-based scenarios
-MFA-fatigue scenarios
+## 📊 Platform Overview:
 
-Campaigns provide visibility into recipient behaviour, including delivery, opens, clicks, credential submissions, and reports.
+CyberLure combines five major capabilities:
 
-🎓 Security Awareness Training
+1. **Mandatory Training** — organization-relevant policy training employees must complete, at onboarding and on an ongoing basis.
+2. **Phishing Awareness** — awareness videos on cyber-attack topics and the current regional & global threat landscape.
+3. **Phishing Campaigns** — simulated phishing emails that test how employees respond to malicious links and attachments.
+4. **IT Training** — generic and specialised IT/security skills training, with certification guidance.
+5. **Gamification** — interactive security games (*Spot the Phish*, *Link Inspector*, and more).
 
-Deliver mandatory and phishing-awareness training through video-based modules followed by graded assessments.
+These five capabilities are backed by **dashboards**, **executive & detailed reporting**, and **administration** (users/roles and email/LDAP/NTP integration).
 
-The platform tracks:
+---
 
-Video-watch progress
-Assessment attempts
-Scores
-Completion status
-Training compliance
-Certificates
+## 1️⃣ Mandatory Training
 
-For the assessment content, I used AI assistance to generate an initial questionnaire based on the training videos, then incorporated and structured the resulting questions within the platform.
+Organization-relevant policy training that employees are required to complete, delivered as a video plus a graded assessment with completion tracking.
 
-🔁 Automated Remediation
+- **Onboarding** — mandatory videos new employees watch during induction.
+- **Ongoing** — refreshers when a new policy is introduced, periodic refreshers of important existing policies, and quarterly-mandated training for all staff.
+- **Relevant to the organization** — e.g. **Clear Desk Policy**, **Acceptable Use Policy**, etc.
 
-The platform connects phishing-simulation results directly to training workflows.
+The Mandatory Training dashboard shows completion, pass rates and video-watch progress across the workforce; each employee gets a focused "watch the video, then take the assessment" experience.
 
-For example:
+[![Mandatory training dashboard](images/08-mandatory-training.png)](images/08-mandatory-training.png)
 
-User clicks simulated phishing email → remediation training assigned → reminders sent → assessment completed → certificate issued → risk re-evaluated
+[![Training experience](images/05-training-experience.png)](images/05-training-experience.png)
 
-This creates a measurable feedback loop rather than treating phishing simulations as one-off exercises.
+---
 
-🎮 Gamified Learning
+## 2️⃣ Phishing Awareness
 
-A dedicated Games Hub provides interactive security-awareness exercises.
+Awareness training on how attacks actually work, kept current with the threat landscape.
 
-The main game, Spot the Phish, presents simulated inbox messages across Easy, Medium, and Hard difficulty levels and teaches users to identify a range of real-world phishing and social-engineering techniques.
+- **Attack-topic videos** — known techniques such as **ransomware**, **man-in-the-middle**, business email compromise, and more.
+- **Current threats** — content aligned to attacks prevalent **regionally (local)** and **internationally (global)**.
+- **Compliance-driven** — awareness videos mandated by the **UAE Cyber Security Council** for **Cybersecurity Awareness Month**.
 
-📈 Human-Risk Analytics
+A dedicated Phishing Awareness dashboard tracks engagement and completion, and each awareness campaign tracks video-watch % and assessment results per recipient.
 
-One of the key goals of the project was to move beyond simply reporting "who clicked?"
+[![Phishing awareness dashboard](images/14-phishing-awareness.png)](images/14-phishing-awareness.png)
 
-CyberLure combines behavioural and training signals to produce an individual and organizational human-risk score.
+[![Awareness campaign detail](images/11-campaign-detail.png)](images/11-campaign-detail.png)
 
-The dashboards provide visibility into areas such as:
+---
 
-Overall human-risk score
-Risk-band distribution
-Phishing engagement
-Click and report trends
-Training compliance
-Assessment performance
-Individual user risk
-Security champions
-Remediation status
+## 3️⃣ Phishing Campaigns
 
-This provides leadership with a more useful question than simply "How many people clicked?":
+Simulated phishing emails sent to employees to **test their awareness and measure real behaviour**. Campaigns exercise the two classic failure actions:
 
-"Are our users becoming more resilient to social-engineering attacks?"
+- 🔗 **Clicking on links**
+- 📎 **Clicking on / downloading attachments**
 
-🧰 Technology Stack
-Layer	Technology
-Backend	Python · Flask · SQLAlchemy
-Database	SQLite · PostgreSQL/MySQL-ready
-Frontend	Jinja2 · Vanilla JavaScript · Inline SVG
-Authentication	Session authentication · RBAC
-Directory Integration	LDAP / Active Directory via ldap3
-Email	SMTP · Tracking pixels · Tracking tokens
-Certificates	Headless Chromium → PDF
-AI Assistance	Anthropic Claude API with offline/deterministic fallback
-Deployment	Single-host deployment · Offline / air-gapped capable
+Every recipient is tracked individually — opened, clicked, submitted credentials, or reported — feeding a live behaviour funnel. Anyone who falls for a simulation is **automatically enrolled in remedial training**, with reminders and manager escalation.
 
-The frontend intentionally avoids CDN dependencies, allowing the application to operate in environments where external internet access is unavailable.
+[![Phishing campaigns dashboard](images/09-phishing-campaigns.png)](images/09-phishing-campaigns.png)
 
-🛠️ Engineering & Security Capabilities Demonstrated
+[![Phishing campaign detail — behaviour funnel & per-recipient tracking](images/16-phishing-campaign-detail.png)](images/16-phishing-campaign-detail.png)
 
-This project demonstrates practical experience across several areas:
+---
 
-Full-Stack Development
+## 4️⃣ IT Training
 
-Designed and implemented the application's data model, backend services, workflows, UI, dashboards, and reporting.
+Skills-based IT and security training, delivered in two flavours:
 
-Security Engineering
+- **IT Generic Training** — foundational topics, e.g. **Networking Fundamentals**, **Information Security Fundamentals** (with recommended certification paths such as CompTIA ITF+/A+/Security+ shown to learners who don't pass).
+- **IT Specific Training** — specialised, hands-on topics, e.g. **Packet Analysis with Wireshark**, **Network Security & Monitoring**.
 
-Translated real-world phishing and social-engineering techniques into safe simulations and educational exercises.
+[![IT Generic training](images/17-it-training-generic.png)](images/17-it-training-generic.png)
 
-Human-Risk Modelling
+[![IT Specific training](images/18-it-training-specific.png)](images/18-it-training-specific.png)
 
-Developed a weighted risk model using behavioural indicators such as phishing interactions, reporting behaviour, and training status.
+---
 
-Workflow Automation
+## 5️⃣ Gamification
 
-Connected user behaviour to automated remediation workflows, reminders, escalation, training, assessment, and certification.
+Learning reinforced through a no-login **Games Hub** — a low-pressure way to build phishing instincts that map directly to the real simulations.
 
-Identity & Directory Integration
+- **Spot the Phish** — realistic inbox messages across easy → medium → hard rounds, teaching 20+ techniques (typosquatting, homoglyphs, BEC, MFA-fatigue, quishing, cloud-share lures, …).
+- **Link Inspector** — judge whether a web address is safe or malicious.
+- …and more (quiz and password games).
 
-Implemented role-based access control and LDAP/Active Directory integration for organizational user management.
+[![Games Hub](images/03-games-hub.png)](images/03-games-hub.png)
 
-Privacy & Offline-First Architecture
+[![Spot the Phish](images/04-spot-the-phish.png)](images/04-spot-the-phish.png)
 
-Designed the platform to minimize external dependencies and support isolated or air-gapped environments.
+[![Link Inspector](images/20-link-inspector.png)](images/20-link-inspector.png)
 
-AI-Assisted Development
+---
 
-Used AI tools during development for software engineering assistance, troubleshooting, content generation, and questionnaire creation. The overall application architecture, integration, workflows, and implementation were developed and assembled as part of the project.
+## ➕ Additional Features
 
-📁 Key Features
-🎣 Phishing Campaign Builder — create simulated campaigns with realistic lures and per-recipient tracking
-📊 Campaign Analytics — monitor delivery, opens, clicks, credential submissions, and reports
-🎓 Security Awareness Training — video-based training with assessments and completion tracking
-🔁 Automated Remediation — automatically assign targeted training following simulation failures
-📝 AI-Assisted Questionnaires — generate initial assessment questions from training material and integrate them into learning modules
-🏆 Gamified Learning — interactive Spot the Phish exercises across multiple difficulty levels
-🧑‍💼 User Drill-Down — review individual training, assessment, phishing, and remediation activity
-📈 Executive Dashboards — human-risk scoring, risk distribution, compliance, and behavioural trends
-🪪 Certificates — generate PDF completion certificates
-👤 Personal Security Hub — password-less employee portal for assigned training and readiness information
-🔌 LDAP / Active Directory — organizational user import and directory integration
-📧 SMTP Integration — campaign and training email delivery
-🔐 RBAC — role-based administrative access
-📴 Offline / Air-Gapped Mode — designed to operate without external SaaS dependencies
+### 📊 Dashboards & Analytics
+Progress and status for **every candidate across every component**, rolled up into organization-wide human-risk analytics: a single human-risk score, risk-band distribution, security-champion leaderboards, click/report trends and compliance status. A per-user drill-down shows every training assigned to a person with video progress, assessment attempts, scores and follow-up state — and each employee gets a personal, password-less **Security Hub**.
 
-🔍 Platform Walkthrough
-🔐 Sign-In
+[![Overall dashboard](images/06-overall-dashboard.png)](images/06-overall-dashboard.png)
 
-A self-hosted administrative console with no dependency on an external identity provider.
+[![Executive dashboard](images/07-executive-dashboard.png)](images/07-executive-dashboard.png)
 
+[![Per-user attempts](images/10-per-user-attempts.png)](images/10-per-user-attempts.png)
 
+[![Employee access & certificates](images/12-employee-access.png)](images/12-employee-access.png)
 
+[![Personal Security Hub](images/02-personal-hub.png)](images/02-personal-hub.png)
 
-📈 Executive Overview & Human-Risk Analytics
+### 📈 Reports
+Both **executive** (leadership-ready summary) and **detailed** (per-recipient defaulter list with CSV export) reporting.
 
-The overall dashboard transforms behavioural and training data into an organizational view of human cyber risk.
+[![Executive report](images/13-reports-executive.png)](images/13-reports-executive.png)
 
-It provides visibility into:
+[![Detailed report — defaulter list](images/24-reports-detailed.png)](images/24-reports-detailed.png)
 
-Human-risk score
-Risk distribution
-Security champions
-Training compliance
-Phishing engagement
-Behavioural trends
+### ⚙️ Settings & Administration
+- **Users & Roles** — create users and role-based access control.
+- **Integrations** — **Email (SMTP)**, **LDAP/Active Directory** (auto-import recipients), and **NTP**.
 
+[![Settings — users & roles](images/21-settings-users.png)](images/21-settings-users.png)
 
+[![Settings — email/SMTP integration](images/22-settings-email.png)](images/22-settings-email.png)
 
+---
 
+## 🧠 Key Takeaways
 
+- Built a **complete security-awareness platform** end-to-end — five integrated components (Mandatory Training, Phishing Awareness, Phishing Campaigns, IT Training, Gamification) plus dashboards, reporting and administration — demonstrating both **security domain expertise** and **full-stack engineering**.
+- Modelled **real adversary techniques** (BEC, homoglyphs, quishing, MFA-fatigue, credential harvesting) into safe, teachable simulations and games.
+- Turned employee behaviour into a **measurable, defensible human-risk score** leadership can act on, with an automated **detect → train → verify** remediation loop.
+- Engineered for the real world: **offline-capable, dependency-light, LDAP-integrated and privacy-conscious** by design.
 
+---
 
+<sub>All screenshots use synthetic demo data (fictional employees at <code>@acme.example</code>). No real personal data is shown.</sub>
 
-
-
-🎯 Phishing Campaign Tracking
-
-Campaign dashboards provide a behavioural funnel from delivery through engagement and simulated credential submission.
-
-Administrators can also view individual recipient activity and follow-up status.
-
-
-
-
-
-
-
-
-
-
-🧑‍💼 User Drill-Down & Certificates
-
-Administrators can drill down into individual users to review:
-
-Training assignments
-Video-watch progress
-Assessment attempts
-Assessment scores
-Remediation status
-Certificate status
-Phishing-simulation activity
-
-
-
-
-
-
-
-🙋 Employee Experience
-
-Each employee receives a personal Security Hub showing their assigned activities and readiness information.
-
-The training workflow guides users through the training video and assessment.
-
-
-
-
-
-
-
-🎮 Gamified Security Awareness
-
-The Games Hub provides a lightweight way for users to practise identifying phishing attempts.
-
-Spot the Phish uses realistic simulated inbox messages across multiple difficulty levels and covers 20+ phishing and social-engineering techniques.
-
-
-
-
-
-
-
-🧠 Key Takeaways
-
-CyberLure demonstrates my ability to combine cybersecurity knowledge, software engineering, automation, and analytics into a single working platform.
-
-The project allowed me to explore and implement:
-
-A complete phishing-simulation workflow
-Security-awareness training and assessment
-Automated user remediation
-Gamified security education
-Human-risk scoring and analytics
-LDAP / Active Directory integration
-SMTP-based communication workflows
-Role-based access control
-PDF certificate generation
-Offline and air-gapped application design
-AI-assisted software development and content creation
-
-Most importantly, the project demonstrates a shift from simply measuring phishing clicks toward creating a continuous measure → educate → remediate → re-measure security-awareness cycle.
-
-⚠️ Portfolio / Demo Disclaimer
-
-This repository is a demonstration and portfolio project.
 
 All screenshots and example records use synthetic data and fictional identities such as @acme.example. No real employee information, credentials, or personal data are included.
 
