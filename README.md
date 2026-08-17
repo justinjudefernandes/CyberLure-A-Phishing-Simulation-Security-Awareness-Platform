@@ -19,8 +19,6 @@ The platform enables security teams to:
 
 The platform was designed to operate without relying on external SaaS platforms or continuous internet connectivity.
 
-<img width="2800" height="2" alt="divider" src="https://github.com/user-attachments/assets/d88d4847-6649-4a18-af02-c5824a0f842d" />
-
 ## 🏗️ Architecture:
 
 CyberLure is a single self-hosted Flask application that runs the entire security-awareness lifecycle in one place — no external SaaS, and no internet dependency at runtime. The security team drives everything from the admin console; recipients interact only through emails, training pages, and games; and every interaction feeds a central tracking and scoring layer that powers the dashboards and the automated remediation loop.
@@ -33,8 +31,6 @@ CyberLure is a single self-hosted Flask application that runs the entire securit
 
 <img width="1000" height="300" alt="CyberLure_System_Overview" src="https://github.com/user-attachments/assets/36dde92b-d8ee-43d7-879a-f872dacc99ad" />
 
-<img width="2800" height="2" alt="divider" src="https://github.com/user-attachments/assets/d88d4847-6649-4a18-af02-c5824a0f842d" />
-
 ## 🧰 Technology Stack:
 | Layer | Technology |
 |---|---|
@@ -46,8 +42,6 @@ CyberLure is a single self-hosted Flask application that runs the entire securit
 | **Certificates** | Headless Chromium → PDF generation |
 | **AI (optional)** | Anthropic Claude API for content assistance, with a deterministic offline fallback |
 | **Deployment** | Runs on a single host · **offline / air-gapped mode** for regulated networks |
-
-<img width="2800" height="2" alt="divider" src="https://github.com/user-attachments/assets/d88d4847-6649-4a18-af02-c5824a0f842d" />
 
 ## 📊 Platform Overview:
 
