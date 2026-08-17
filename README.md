@@ -212,8 +212,6 @@ CyberLure sends simulated phishing and handles employee behavioural data, so it 
 - **No hardcoded secrets** — credentials and API keys are supplied via environment/settings, never committed to source.
 - **Synthetic showcase data** — every screenshot in this repository uses fictional employees (@acme.example); no real personal data is shown.
 
-<img width="2800" height="2" alt="divider" src="https://github.com/user-attachments/assets/d88d4847-6649-4a18-af02-c5824a0f842d" />
-
 ## 🗺️ Roadmap / Future Enhancements:
 - SSO / SAML authentication alongside the existing LDAP/AD integration.
 - Multilingual content (e.g. English & Arabic) across training, assessments, and games.
@@ -222,16 +220,12 @@ CyberLure sends simulated phishing and handles employee behavioural data, so it 
 - REST API / SIEM export for feeding human-risk signals into existing security tooling.
 - Containerized deployment (Docker Compose) for one-command self-hosting.
 
-<img width="2800" height="2" alt="divider" src="https://github.com/user-attachments/assets/d88d4847-6649-4a18-af02-c5824a0f842d" />
-
 ## 🧗 Challenges & Lessons Learned:
 - **Offline video watch-tracking** — enforcing "watch the full video before the assessment" required a furthest-watched cap, resume-on-reload, and handling mobile-browser quirks (e.g. Chrome pausing timeupdate events during seeks) — all without any external video platform.
 - **Reliable mobile playback** — a DevTools-detection heuristic was falsely pausing videos on phones (the browser's address bar tripped a window-size check); scoping it to desktop-only fixed legitimate playback.
 - **A defensible human-risk score** — turning raw signals (clicks, reports, training gaps) into a single 0–100 score meant only counting phishing a user engaged with, so an unopened lure reads as "no signal" rather than false safety.
 - **Air-gapped AI** — content assistance uses Claude when available but falls back to a deterministic generator, so the platform is fully functional with zero connectivity.
 - **Bulletproof, offline email** — campaign and certificate emails render as inline-SVG, self-contained HTML (no CDN, no remote images) so they display consistently across mail clients on isolated networks.
-
-<img width="2800" height="2" alt="divider" src="https://github.com/user-attachments/assets/d88d4847-6649-4a18-af02-c5824a0f842d" />
 
 ## 🧠 Key Takeaways:
 - Built a complete security-awareness platform end-to-end — five integrated capabilities (Mandatory Training, Phishing Awareness, Phishing Campaigns, IT Training, Gamification) plus dashboards, reporting, and administration — demonstrating both security domain expertise and full-stack engineering.
