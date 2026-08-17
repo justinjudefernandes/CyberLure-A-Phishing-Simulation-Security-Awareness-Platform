@@ -43,10 +43,12 @@ CyberLure combines five major capabilities into one security-awareness platform:
 
 These capabilities are supported by organization-wide dashboards, executive and detailed reporting, user management, role-based access control, and integrations such as SMTP, LDAP/Active Directory, and NTP.
 
-### 🎓**Mandatory Training:**
-Mandatory Training provides organization-specific policy and compliance training that employees are required to complete during onboarding and throughout their employment. Training follows a structured ```video → assessment → completion workflow```, allowing organizations to track both engagement with the training material and the employee’s understanding of it.
+---
 
-Examples of training include:
+### 🎓 **Mandatory Training:**
+Mandatory Training delivers organization-specific policy, security, and compliance training that employees are required to complete during onboarding and throughout their employment. The platform follows a structured video → assessment → completion workflow, enabling organizations to monitor both employee engagement with the training content and their understanding of the material.
+
+Examples of mandatory training include:
 - Clear Desk Policy
 - Acceptable Use Policy
 - Information Security Policies
@@ -54,39 +56,31 @@ Examples of training include:
 - Periodic Policy Refreshers
 - Quarterly Mandatory Training
 
-The Mandatory Training dashboard provides administrators with visibility into:
+The Mandatory Training dashboard provides administrators with visibility into key training metrics, including:
 - Training completion rates
-- Assessment results and pass rates
-- Video-watch progress
-- Outstanding training
+- Assessment scores and pass rates
+- Video viewing progress
+- Outstanding or overdue training
 - Employee-level completion status
 
-Each employee receives a focused learning experience where they watch the assigned training content and complete the associated assessment, with their progress and results recorded by the platform.
+Each employee receives a focused learning experience by viewing their assigned training content and completing the corresponding assessment. The platform records their progress, assessment results, and completion status, providing administrators with a clear view of training compliance across the organization.
 
-### 🛡️ **Phishing Awareness**
+### 🛡️ **Phishing Awareness:**
+Phishing Awareness provides educational content designed to help employees understand how cyberattacks work and how to recognize, avoid, and respond to common threats.
 
-Phishing Awareness provides educational content focused on how cyber attacks work and how employees can recognize and respond to them.
+Example topics include:
+- Ransomware
+- Man-in-the-Middle attacks
+- Business Email Compromise
+- Credential phishing
+- Social engineering
+- Malicious links and attachments
+- Other current threat techniques
 
-Example topics
-Ransomware
-Man-in-the-Middle attacks
-Business Email Compromise
-Credential phishing
-Social engineering
-Malicious links and attachments
-Other current threat techniques
+The platform supports awareness content relevant to both regional and global threat landscapes. Awareness campaigns track video engagement, completion status, and assessment results for each individual recipient.
 
-The platform can support awareness content relevant to both regional and global threat landscapes.
-
-Awareness campaigns track video engagement, completion, and assessment results for individual recipients.
-
-
-3️⃣ Phishing Campaigns
-
-The phishing-simulation component allows security teams to conduct controlled simulations against authorized employees and measure how users respond.
-
-Campaigns can simulate common attack scenarios involving:
-
+### 🎣 **Phishing Campaigns:**
+The phishing-simulation component enables security teams to conduct controlled, authorized simulations and measure how employees respond to realistic phishing scenarios. Campaigns can simulate common attack techniques, including:
 🔗 Malicious links
 📎 Malicious attachments
 🎭 Display-name spoofing
@@ -97,19 +91,7 @@ Campaigns can simulate common attack scenarios involving:
 ☁️ Cloud-sharing lures
 🔔 MFA-fatigue scenarios
 
-Each recipient has an individual tracking record showing relevant campaign activity such as:
-
-Delivered → Opened → Clicked → Submitted → Reported
-
-Simulation failures can trigger automatic remedial training, followed by reminders and escalation workflows.
-
-
-
-
-
-
-
-Security note: The phishing functionality is intended exclusively for authorized security-awareness and testing environments.
+Each recipient has an individual tracking record that captures key campaign activity, from ```Delivered → Opened → Clicked → Submitted → Reported```. Simulation failures can automatically trigger remedial training, followed by reminders and escalation workflows to reinforce security awareness. The phishing functionality is intended exclusively for authorized security-awareness and security-testing environments.
 
 4️⃣ IT Training
 
