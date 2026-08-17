@@ -23,18 +23,16 @@ The platform was designed to operate without relying on external SaaS platforms 
 ## 🧰 Technology Stack:
 | Layer | Technology |
 |---|---|
+| **Frontend** | Jinja2 · vanilla JavaScript · inline SVG |
 | **Backend** | Python · Flask · SQLAlchemy |
 | **Database** | SQLite (zero-dependency default) · PostgreSQL/MySQL-ready |
-| **Frontend** | Jinja2 · vanilla JavaScript · inline SVG (no CDN — offline-safe) |
 | **Auth & Directory** | Session auth + role-based access control · LDAP/Active Directory (ldap3) |
 | **Email** | SMTP delivery · open/click tracking pixels & per-recipient tokens |
 | **Certificates** | Headless Chromium → PDF generation |
 | **AI (optional)** | Anthropic Claude API for content assistance, with a deterministic offline fallback |
 | **Deployment** | Runs on a single host · **offline / air-gapped mode** for regulated networks |
 
-The application avoids CDN dependencies and is designed to remain functional in environments where external internet access is unavailable.
-
-📊 Platform Overview
+## 📊 Platform Overview
 
 CyberLure combines five major capabilities into one security-awareness platform:
 
