@@ -20,6 +20,11 @@ The platform enables security teams to:
 
 The platform was designed to operate without relying on external SaaS platforms or continuous internet connectivity.
 
+## 🏗️ Architecture:
+CyberLure is a single self-hosted Flask application that runs the entire security-awareness lifecycle in one place — no external SaaS, and no internet dependency at runtime. The security team drives everything from the admin console; recipients interact only through emails, training pages, and games; and every interaction feeds a central tracking and scoring layer that powers the dashboards and the automated remediation loop.
+
+The security-awareness lifecycle:
+
 ## 🧰 Technology Stack:
 | Layer | Technology |
 |---|---|
