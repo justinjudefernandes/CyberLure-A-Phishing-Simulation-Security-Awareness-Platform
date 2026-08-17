@@ -1,6 +1,7 @@
 # 🛡️ CyberLure: A Phishing Simulation & Security Awareness Platform
 > ##### (Mandatory Training · Phishing Awareness · Phishing Campaigns · IT Training · Gamification)
 
+---
 
 ## 🎯 Objective:
 Security awareness is most effective when organizations can continuously educate, test, measure, and remediate employee behaviour. The objective of CyberLure was to build a complete security-awareness lifecycle rather than a standalone phishing simulator:
@@ -19,6 +20,8 @@ The platform enables security teams to:
 - Measure human cyber risk through behavioural analytics
 
 The platform was designed to operate without relying on external SaaS platforms or continuous internet connectivity.
+
+---
 
 ## 🏗️ Architecture:
 
@@ -45,6 +48,8 @@ CyberLure is a single self-hosted Flask application that runs the entire securit
 | **Certificates** | Headless Chromium → PDF generation |
 | **AI (optional)** | Anthropic Claude API for content assistance, with a deterministic offline fallback |
 | **Deployment** | Runs on a single host · **offline / air-gapped mode** for regulated networks |
+
+---
 
 ## 📊 Platform Overview:
 
