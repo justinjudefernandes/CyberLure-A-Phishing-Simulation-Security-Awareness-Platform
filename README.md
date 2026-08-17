@@ -35,43 +35,36 @@ The platform was designed to operate without relying on external SaaS platforms 
 ## 📊 Platform Overview:
 
 CyberLure combines five major capabilities into one security-awareness platform:
-- Mandatory Training
-- Phishing Awareness
-- Phishing Campaigns
-- IT Training
-- Gamification
+- ❶ Mandatory Training
+- ❷ Phishing Awareness
+- ❸ Phishing Campaigns
+- ❹ IT Training
+- ❺ Gamification
 
 These capabilities are supported by organization-wide dashboards, executive and detailed reporting, user management, role-based access control, and integrations such as SMTP, LDAP/Active Directory, and NTP.
 
 ### 1️⃣ Mandatory Training:
 
-Mandatory Training provides organization-specific policy and compliance training that employees are required to complete during onboarding and throughout their employment.
+Mandatory Training provides organization-specific policy and compliance training that employees are required to complete during onboarding and throughout their employment. Training follows a structured ```video → assessment → completion workflow```, allowing organizations to track both engagement with the training material and the employee’s understanding of it.
 
-Training is delivered through a video → assessment → completion workflow. These include:
+Examples of training include:
 - Clear Desk Policy
 - Acceptable Use Policy
 - Information Security Policies
-New employee onboarding
-Periodic policy refreshers
-Quarterly mandatory training
+- New Employee Onboarding
+- Periodic Policy Refreshers
+- Quarterly Mandatory Training
 
-The dashboard provides visibility into completion rates, assessment results, pass rates, and video-watch progress across the workforce.
+The Mandatory Training dashboard provides administrators with visibility into:
+- Training completion rates
+- Assessment results and pass rates
+- Video-watch progress
+- Outstanding training
+- Employee-level completion status
 
-Each employee receives a focused learning experience where they watch the assigned content and complete the associated assessment.
+Each employee receives a focused learning experience where they watch the assigned training content and complete the associated assessment, with their progress and results recorded by the platform.
 
 
-
-
-
-
-
-AI-Assisted Assessment Development
-
-AI was used as a development and content-assistance tool during the creation of the training assessments.
-
-After reviewing the training videos, I used Claude to generate an initial set of questionnaire and assessment questions based on the material covered. These questions were then incorporated into the application's assessment workflow and structured around the learning objectives of each module.
-
-AI was therefore used to accelerate content creation, while the platform's training workflow, assessment functionality, scoring, tracking, and integration were developed as part of the project.
 
 2️⃣ Phishing Awareness
 
@@ -181,7 +174,13 @@ Additional quiz and security-awareness games can be incorporated into the platfo
 
 
 
+AI-Assisted Assessment Development
 
+AI was used as a development and content-assistance tool during the creation of the training assessments.
+
+After reviewing the training videos, I used Claude to generate an initial set of questionnaire and assessment questions based on the material covered. These questions were then incorporated into the application's assessment workflow and structured around the learning objectives of each module.
+
+AI was therefore used to accelerate content creation, while the platform's training workflow, assessment functionality, scoring, tracking, and integration were developed as part of the project.
 
 
 
