@@ -136,7 +136,7 @@ More specialized technical subjects focused on practical IT and cybersecurity sk
 - Network Security
 - Security Monitoring
 
-<img width="2800" height="2" alt="divider" src="https://github.com/user-attachments/assets/d88d4847-6649-4a18-af02-c5824a0f842d" />>
+<img width="2800" height="2" alt="divider" src="https://github.com/user-attachments/assets/d88d4847-6649-4a18-af02-c5824a0f842d" />
 
 ### 🎮 **Gamification:**
 The Games Hub provides interactive security-awareness exercises that reinforce concepts introduced through security training and phishing simulations. The games are organized into three progressive tiers, covering core cybersecurity skills, a broader range of threats, and behavior-based security judgement.
