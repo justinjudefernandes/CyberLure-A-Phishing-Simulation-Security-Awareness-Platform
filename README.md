@@ -35,16 +35,15 @@ The platform was designed to operate without relying on external SaaS platforms 
 ## 📊 Platform Overview:
 
 CyberLure combines five major capabilities into one security-awareness platform:<br>
-🎓 **Mandatory Training**<br>
-🛡️ **Phishing Awareness**<br>
-🎣 **Phishing Campaigns**<br>
-🖥️ **IT Training**<br>
-🎮 **Gamification**
+1) 🎓 **Mandatory Training**<br>
+2) 🛡️ **Phishing Awareness**<br>
+3) 🎣 **Phishing Campaigns**<br>
+4) 🖥️ **IT Training**<br>
+5) 🎮 **Gamification**
 
 These capabilities are supported by organization-wide dashboards, executive and detailed reporting, user management, role-based access control, and integrations such as SMTP, LDAP/Active Directory, and NTP.
 
-### 1️⃣ Mandatory Training:
-
+### 🎓**Mandatory Training:**
 Mandatory Training provides organization-specific policy and compliance training that employees are required to complete during onboarding and throughout their employment. Training follows a structured ```video → assessment → completion workflow```, allowing organizations to track both engagement with the training material and the employee’s understanding of it.
 
 Examples of training include:
@@ -64,9 +63,7 @@ The Mandatory Training dashboard provides administrators with visibility into:
 
 Each employee receives a focused learning experience where they watch the assigned training content and complete the associated assessment, with their progress and results recorded by the platform.
 
-
-
-2️⃣ Phishing Awareness
+### 🛡️ **Phishing Awareness**
 
 Phishing Awareness provides educational content focused on how cyber attacks work and how employees can recognize and respond to them.
 
@@ -82,11 +79,6 @@ Other current threat techniques
 The platform can support awareness content relevant to both regional and global threat landscapes.
 
 Awareness campaigns track video engagement, completion, and assessment results for individual recipients.
-
-
-
-
-
 
 
 3️⃣ Phishing Campaigns
