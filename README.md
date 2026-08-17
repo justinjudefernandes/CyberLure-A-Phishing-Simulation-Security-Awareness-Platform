@@ -136,24 +136,22 @@ More specialized technical subjects focused on practical IT and cybersecurity sk
 The Games Hub provides interactive security-awareness exercises that reinforce concepts introduced through security training and phishing simulations. The games are organized into three progressive tiers, covering core cybersecurity skills, a broader range of threats, and behavior-based security judgement.
 
 #### Tier 1 · Core Skills
-🎣 Spot the Phish — Identify whether simulated emails are legitimate or phishing attempts.
-🔗 Link Inspector — Analyse URLs and determine whether they are safe or malicious.
-🛡️ Password Fortress — Create strong passwords and see how quickly they could be cracked.
-⚡ Cyber Quiz Blitz — Test cybersecurity knowledge through a fast-paced 10-question quiz.
-📱 Smishing Challenge — Identify fraudulent and malicious SMS messages.
+- 🎣 Spot the Phish — Identify whether simulated emails are legitimate or phishing attempts.
+- 🔗 Link Inspector — Analyse URLs and determine whether they are safe or malicious.
+- 🛡️ Password Fortress — Create strong passwords and see how quickly they could be cracked.
+- ⚡ Cyber Quiz Blitz — Test cybersecurity knowledge through a fast-paced 10-question quiz.
+- 📱 Smishing Challenge — Identify fraudulent and malicious SMS messages.
 
 #### Tier 2 · Threat Variety
-🔳 QR Code Detective — Investigate QR codes and identify potentially malicious destinations.
-🔐 MFA Fatigue Defender — Learn how to respond safely to unexpected MFA approval requests.
-☁️ OAuth Consent Check — Assess application permissions and identify excessive access requests.
-📂 USB Drop Dilemma — Make the right security decision when encountering an unknown USB device.
+- 🔳 QR Code Detective — Investigate QR codes and identify potentially malicious destinations.
+- 🔐 MFA Fatigue Defender — Learn how to respond safely to unexpected MFA approval requests.
+- ☁️ OAuth Consent Check — Assess application permissions and identify excessive access requests.
+- 📂 USB Drop Dilemma — Make the right security decision when encountering an unknown USB device.
 
 #### Tier 3 · Behaviour & Judgement
-🕵️ Insider Threat Watch — Distinguish between normal and potentially suspicious employee behaviour.
-📄 Data Classification — Classify information according to its sensitivity and handling requirements.
-🧠 Deepfake Detective — Identify whether audio, video, or images are genuine or AI-generated.
-
-<img width="2800" height="2" alt="divider" src="https://github.com/user-attachments/assets/d88d4847-6649-4a18-af02-c5824a0f842d" />
+- 🕵️ Insider Threat Watch — Distinguish between normal and potentially suspicious employee behaviour.
+- 📄 Data Classification — Classify information according to its sensitivity and handling requirements.
+- 🧠 Deepfake Detective — Identify whether audio, video, or images are genuine or AI-generated.
 
 ## 🧩 **Additional Capabilities:**
 
@@ -194,8 +192,6 @@ The administration layer provides centralized management of users, roles, permis
   - LDAP / Active Directory — Directory-based user import
   - NTP — Time synchronization
  
-<img width="2800" height="2" alt="divider" src="https://github.com/user-attachments/assets/d88d4847-6649-4a18-af02-c5824a0f842d" />
-
 ## 🔒 Security, Privacy & Responsible Use:
 CyberLure sends simulated phishing and handles employee behavioural data, so it was built to be safe and self-contained by design.
 - **Authorized use only** — the phishing functionality is intended exclusively for authorized, internal security-awareness and security-testing programmes.
