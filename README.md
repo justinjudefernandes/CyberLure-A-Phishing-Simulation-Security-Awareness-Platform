@@ -1,10 +1,6 @@
 # 🛡️ CyberLure: A Phishing Simulation & Security Awareness Platform
 > #### Phishing Simulations → Awareness Training → Gamified Learning → Human-Risk Analytics
 
-CyberLure is a self-hosted security-awareness platform designed and developed to help organizations simulate phishing attacks, deliver targeted security training, reinforce learning through gamification, and measure human cyber risk.
-
-The platform is designed with offline and air-gapped environments in mind, making it suitable for organizations operating in regulated or restricted networks.
-
 🎯 Project Objective:
 
 Many security incidents involve human behaviour — whether it is clicking a malicious link, opening an unsafe attachment, submitting credentials, or failing to recognize a social-engineering attempt.
