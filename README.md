@@ -101,7 +101,7 @@ Example topics include:
 
 The platform supports awareness content relevant to both regional and global threat landscapes. Awareness campaigns track video engagement, completion status, and assessment results for each individual recipient.
 
-<img width="2800" height="2" alt="divider" src="https://github.com/user-attachments/assets/d88d4847-6649-4a18-af02-c5824a0f842d" />v>
+<img width="2800" height="2" alt="divider" src="https://github.com/user-attachments/assets/d88d4847-6649-4a18-af02-c5824a0f842d" />
 
 ### 🎣 **Phishing Campaigns:**
 The phishing-simulation component enables security teams to conduct controlled, authorized simulations and measure how employees respond to realistic phishing scenarios. Campaigns can simulate common attack techniques, including:
