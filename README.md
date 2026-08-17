@@ -43,6 +43,9 @@ CyberLure combines five major capabilities into one security-awareness platform:
 
 These capabilities are supported by organization-wide dashboards, executive and detailed reporting, user management, role-based access control, and integrations such as SMTP, LDAP/Active Directory, and NTP.
 
+> 🤖 **AI-Assisted Content Development:** <br>
+AI tools were used as development and content-assistance tools throughout the project to accelerate the creation of training and security-awareness content. After reviewing the relevant training materials, Claude was used to generate initial drafts of assessment questions, quizzes, learning content, and related materials based on the learning objectives and subject matter. All generated content was reviewed, refined, and incorporated into the application's workflows as appropriate. The platform's training workflows, assessment functionality, scoring, tracking, campaign management, gamification, dashboards, and integrations were developed as part of the project.
+
 ---
 
 ### 🎓 **Mandatory Training:**
@@ -65,6 +68,8 @@ The Mandatory Training dashboard provides administrators with visibility into ke
 
 Each employee receives a focused learning experience by viewing their assigned training content and completing the corresponding assessment. The platform records their progress, assessment results, and completion status, providing administrators with a clear view of training compliance across the organization.
 
+---
+
 ### 🛡️ **Phishing Awareness:**
 Phishing Awareness provides educational content designed to help employees understand how cyberattacks work and how to recognize, avoid, and respond to common threats.
 
@@ -78,6 +83,8 @@ Example topics include:
 - Other current threat techniques
 
 The platform supports awareness content relevant to both regional and global threat landscapes. Awareness campaigns track video engagement, completion status, and assessment results for each individual recipient.
+
+---
 
 ### 🎣 **Phishing Campaigns:**
 The phishing-simulation component enables security teams to conduct controlled, authorized simulations and measure how employees respond to realistic phishing scenarios. Campaigns can simulate common attack techniques, including:
@@ -93,59 +100,47 @@ The phishing-simulation component enables security teams to conduct controlled, 
 
 Each recipient has an individual tracking record that captures key campaign activity, from ```Delivered → Opened → Clicked → Submitted → Reported```. Simulation failures can automatically trigger remedial training, followed by reminders and escalation workflows to reinforce security awareness. The phishing functionality is intended exclusively for authorized security-awareness and security-testing environments.
 
-4️⃣ IT Training
+---
 
-CyberLure also includes skills-based IT and cybersecurity training.
+### 🖥️ **IT Training:**
+CyberLure also includes skills-based IT and cybersecurity training, divided into two areas:
 
-Training is divided into two areas:
+#### 1. IT Generic Training:
+Foundational subjects designed to build core IT and cybersecurity knowledge, including:
+- Networking Fundamentals
+- Information Security Fundamentals
+- IT Fundamentals
 
-IT Generic Training
+Where appropriate, the platform can recommend relevant certification pathways such as CompTIA ITF+, A+, and Security+.
 
-Foundational subjects such as:
+#### 2. IT Specific Training:
+More specialized technical subjects focused on practical IT and cybersecurity skills, including:
+- Packet Analysis with Wireshark
+- Network Security
+- Security Monitoring
 
-Networking Fundamentals
-Information Security Fundamentals
-IT fundamentals
+---
 
-Where appropriate, the platform can provide recommended certification pathways such as CompTIA ITF+, A+, or Security+.
+### 🎮 **Gamification:**
+The Games Hub provides interactive security-awareness exercises that reinforce concepts introduced through security training and phishing simulations. The games are organized into three progressive tiers, covering core cybersecurity skills, a broader range of threats, and behaviour-based security judgement.
 
-IT Specific Training
+### Tier 1 · Core Skills
+🎣 Spot the Phish — Identify whether simulated emails are legitimate or phishing attempts.
+🔗 Link Inspector — Analyse URLs and determine whether they are safe or malicious.
+🛡️ Password Fortress — Create strong passwords and see how quickly they could be cracked.
+⚡ Cyber Quiz Blitz — Test cybersecurity knowledge through a fast-paced 10-question quiz.
+📱 Smishing Challenge — Identify fraudulent and malicious SMS messages.
 
-More specialized technical subjects, such as:
+#### Tier 2 · Threat Variety
+🔳 QR Code Detective — Investigate QR codes and identify potentially malicious destinations.
+🔐 MFA Fatigue Defender — Learn how to respond safely to unexpected MFA approval requests.
+☁️ OAuth Consent Check — Assess application permissions and identify excessive access requests.
+📂 USB Drop Dilemma — Make the right security decision when encountering an unknown USB device.
 
-Packet Analysis with Wireshark
-Network Security
-Security Monitoring
-
-
-
-
-
-
-
-5️⃣ 🎮 Gamification
-
-The Games Hub provides interactive security-awareness exercises designed to reinforce concepts covered by the training and phishing simulations.
-
-Spot the Phish
-
-Users analyse realistic simulated inbox messages across Easy, Medium, and Hard difficulty levels.
-
-The game covers more than 20 phishing and social-engineering techniques, including:
-
-Typosquatting
-Homoglyph attacks
-Business Email Compromise
-MFA fatigue
-Quishing
-Cloud-sharing lures
-Credential harvesting
-Link Inspector
-
-Users evaluate URLs and determine whether they appear safe or malicious.
-
-Additional quiz and security-awareness games can be incorporated into the platform.
-
+#### Tier 3 · Behaviour & Judgement
+🕵️ Insider Threat Watch — Distinguish between normal and potentially suspicious employee behaviour.
+📄 Data Classification — Classify information according to its sensitivity and handling requirements.
+🧠 Deepfake Detective — Identify whether audio, video, or images are genuine or AI-generated.
 
 
 AI-Assisted Assessment Development
