@@ -1,13 +1,13 @@
 # 🛡️ CyberLure: A Phishing Simulation & Security Awareness Platform
 > #### Phishing Simulations → Awareness Training → Gamified Learning → Human-Risk Analytics
 
-🎯 Project Objective:
+## 🎯 Project Objective:
 
 Many security incidents involve human behaviour — whether it is clicking a malicious link, opening an unsafe attachment, submitting credentials, or failing to recognize a social-engineering attempt.
 
 I wanted to build a platform that could address the complete security-awareness lifecycle in one place:
 
-Simulate → Measure → Train → Test → Remediate → Re-measure
+                  Simulate → Measure → Train → Test → Remediate → Re-measure
 
 CyberLure allows a security team to safely run phishing simulations against its own users, identify areas of weakness, automatically assign appropriate training, verify learning outcomes, and use behavioural data to measure changes in human risk.
 
