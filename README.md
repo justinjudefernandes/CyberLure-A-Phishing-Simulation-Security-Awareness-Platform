@@ -2,39 +2,35 @@
 > ##### (Mandatory Training · Phishing Awareness · Phishing Campaigns · IT Training · Gamification)
 
 
-🎯 Objective
+## 🎯 Objective:
+Security awareness is most effective when organizations can continuously educate, test, measure, and remediate employee behaviour. The objective of CyberLure was to build a complete security-awareness lifecycle rather than a standalone phishing simulator:
 
-Security awareness is most effective when organizations can continuously educate, test, measure, and remediate employee behaviour.
-
-The objective of CyberLure was to build a complete security-awareness lifecycle rather than a standalone phishing simulator:
-
-Train → Simulate → Measure → Remediate → Verify → Re-measure
+              Train → Simulate → Measure → Remediate → Verify → Re-measure
 
 The platform enables security teams to:
-
-Deliver mandatory organizational training
-Educate employees about current cyber threats
-Run controlled phishing simulations
-Measure individual and organizational behaviour
-Automatically assign remedial training
-Verify training completion and assessment performance
-Reinforce learning through security games
-Generate certificates and compliance reports
-Measure human cyber risk through behavioural analytics
+- Deliver mandatory organizational training
+- Educate employees about current cyber threats
+- Run controlled phishing simulations
+- Measure individual and organizational behaviour
+- Automatically assign remedial training
+- Verify training completion and assessment performance
+- Reinforce learning through security games
+- Generate certificates and compliance reports
+- Measure human cyber risk through behavioural analytics
 
 The platform was designed to operate without relying on external SaaS platforms or continuous internet connectivity.
 
-🧰 Technology Stack
-Layer	Technology
-Backend	Python · Flask · SQLAlchemy
-Database	SQLite · PostgreSQL/MySQL-ready
-Frontend	Jinja2 · Vanilla JavaScript · Inline SVG
-Authentication	Session authentication · Role-Based Access Control
-Directory Integration	LDAP / Active Directory via ldap3
-Email	SMTP · Tracking pixels · Per-recipient tracking tokens
-Certificates	Headless Chromium → PDF
-AI Assistance	Anthropic Claude API with deterministic/offline fallback
-Deployment	Single-host · Offline / air-gapped capable
+## 🧰 Technology Stack:
+| Layer | Technology |
+|---|---|
+| **Backend** | Python · Flask · SQLAlchemy |
+| **Database** | SQLite (zero-dependency default) · PostgreSQL/MySQL-ready |
+| **Frontend** | Jinja2 · vanilla JavaScript · inline SVG (no CDN — offline-safe) |
+| **Auth & Directory** | Session auth + role-based access control · LDAP/Active Directory (ldap3) |
+| **Email** | SMTP delivery · open/click tracking pixels & per-recipient tokens |
+| **Certificates** | Headless Chromium → PDF generation |
+| **AI (optional)** | Anthropic Claude API for content assistance, with a deterministic offline fallback |
+| **Deployment** | Runs on a single host · **offline / air-gapped mode** for regulated networks |
 
 The application avoids CDN dependencies and is designed to remain functional in environments where external internet access is unavailable.
 
