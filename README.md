@@ -1,8 +1,6 @@
 # 🛡️ CyberLure: A Phishing Simulation & Security Awareness Platform
 > ##### (Mandatory Training · Phishing Awareness · Phishing Campaigns · IT Training · Gamification)
 
-<img width="2800" height="2" alt="divider" src="https://github.com/user-attachments/assets/d88d4847-6649-4a18-af02-c5824a0f842d" />
-
 ## 🎯 Objective:
 Security awareness is most effective when organizations can continuously educate, test, measure, and remediate employee behaviour. The objective of CyberLure was to build a complete security-awareness lifecycle rather than a standalone phishing simulator:
 
