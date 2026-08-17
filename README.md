@@ -88,15 +88,15 @@ The platform supports awareness content relevant to both regional and global thr
 
 ### 🎣 **Phishing Campaigns:**
 The phishing-simulation component enables security teams to conduct controlled, authorized simulations and measure how employees respond to realistic phishing scenarios. Campaigns can simulate common attack techniques, including:
-🔗 Malicious links
-📎 Malicious attachments
-🎭 Display-name spoofing
-🌐 Typosquatted domains
-🔐 Credential-harvesting scenarios
-📱 QR-code phishing
-🏢 Business Email Compromise
-☁️ Cloud-sharing lures
-🔔 MFA-fatigue scenarios
+- Malicious links
+- Malicious attachments
+- Display-name spoofing
+- Typosquatted domains
+- Credential-harvesting scenarios
+- QR-code phishing
+- Business Email Compromise
+- Cloud-sharing lures
+- MFA-fatigue scenarios
 
 Each recipient has an individual tracking record that captures key campaign activity, from ```Delivered → Opened → Clicked → Submitted → Reported```. Simulation failures can automatically trigger remedial training, followed by reminders and escalation workflows to reinforce security awareness. The phishing functionality is intended exclusively for authorized security-awareness and security-testing environments.
 
@@ -124,7 +124,7 @@ More specialized technical subjects focused on practical IT and cybersecurity sk
 ### 🎮 **Gamification:**
 The Games Hub provides interactive security-awareness exercises that reinforce concepts introduced through security training and phishing simulations. The games are organized into three progressive tiers, covering core cybersecurity skills, a broader range of threats, and behaviour-based security judgement.
 
-### Tier 1 · Core Skills
+#### Tier 1 · Core Skills
 🎣 Spot the Phish — Identify whether simulated emails are legitimate or phishing attempts.
 🔗 Link Inspector — Analyse URLs and determine whether they are safe or malicious.
 🛡️ Password Fortress — Create strong passwords and see how quickly they could be cracked.
@@ -142,100 +142,50 @@ The Games Hub provides interactive security-awareness exercises that reinforce c
 📄 Data Classification — Classify information according to its sensitivity and handling requirements.
 🧠 Deepfake Detective — Identify whether audio, video, or images are genuine or AI-generated.
 
+---
 
-AI-Assisted Assessment Development
+## 🧩 **Additional Capabilities:**
 
-AI was used as a development and content-assistance tool during the creation of the training assessments.
-
-After reviewing the training videos, I used Claude to generate an initial set of questionnaire and assessment questions based on the material covered. These questions were then incorporated into the application's assessment workflow and structured around the learning objectives of each module.
-
-AI was therefore used to accelerate content creation, while the platform's training workflow, assessment functionality, scoring, tracking, and integration were developed as part of the project.
-
-
-
-
-
-
-📊 Dashboards & Human-Risk Analytics
-
-A core objective of CyberLure was to move beyond simply measuring who clicked a phishing email.
-
-The platform aggregates training, assessment, phishing, and behavioural data into organization-wide human-risk analytics.
+### 📊 **Dashboards & Human-Risk Analytics:**
+A core objective of CyberLure is to move beyond simply measuring who clicked a phishing email and provide a broader view of organizational human risk. The platform brings together training, assessment, phishing, and behavioral data to provide organization-wide human-risk analytics.
 
 The dashboards provide visibility into:
+- Overall human-risk score
+- Risk-band distribution
+- Phishing engagement
+- Click and reporting trends
+- Training compliance
+- Assessment performance
+- Security champions
+- Individual user risk
+- Remediation status
 
-Overall human-risk score
-Risk-band distribution
-Phishing engagement
-Click and reporting trends
-Training compliance
-Assessment performance
-Security champions
-Individual user risk
-Remediation status
+Administrators can drill down to the individual-user level to review training assignments, video progress, assessment attempts and scores, phishing activity, and remediation status. Employees also have access to a personal, password-less Security Hub where they can view their assigned activities and security-readiness information.
 
-Administrators can drill down into individual users to view their training assignments, video progress, assessment attempts, scores, phishing activity, and remediation state.
+### 📈 **Reporting:**
+CyberLure provides both executive-level and detailed operational reporting, enabling leadership and security teams to view human-risk information at the level most relevant to them. Executive Reporting provides leadership with a high-level overview of:
+- Human-risk posture
+- Training compliance
+- Phishing engagement
+- Risk distribution
+- Organizational trends
+- Detailed Reporting
 
-Employees also receive a personal, password-less Security Hub showing their assigned activities and readiness information.
+Provides security and operational teams with recipient-level details, including outstanding training, assessment results, phishing activity, and remediation requirements, with CSV export capabilities for further analysis.
 
+### ⚙️ **Administration & Integrations:**
+The administration layer provides centralized management of users, roles, permissions, and external platform integrations as below:
+- User management
+- Role-based access control
+- Administrative permissions
+- Integrations
+  - SMTP — Email delivery
+  - LDAP / Active Directory — Directory-based user import
+  - NTP — Time synchronization
+ 
+---
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-📈 Reporting
-
-CyberLure provides both executive-level and detailed operational reporting.
-
-Executive Reporting
-
-Provides leadership with a high-level view of:
-
-Human-risk posture
-Training compliance
-Phishing engagement
-Risk distribution
-Organizational trends
-Detailed Reporting
-
-Provides operational teams with per-recipient information, including outstanding training and remediation activities, with CSV export capabilities.
-
-
-
-
-
-
-
-⚙️ Administration & Integrations
-
-The administration layer provides centralized management of users, roles, and external integrations.
-
-Users & Roles
-User management
-Role-based access control
-Administrative permissions
-Integrations
-SMTP — email delivery
-LDAP / Active Directory — directory-based user import
-NTP — time synchronization
-
-
-
-
-
-
-
-🧠 Key Engineering Takeaways
+## 🧠 **Key Engineering Takeaways:**
 
 CyberLure demonstrates the integration of cybersecurity, software engineering, automation, and analytics into a single working platform.
 
