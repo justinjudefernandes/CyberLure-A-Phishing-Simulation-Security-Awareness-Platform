@@ -32,28 +32,25 @@ The platform was designed to operate without relying on external SaaS platforms 
 | **AI (optional)** | Anthropic Claude API for content assistance, with a deterministic offline fallback |
 | **Deployment** | Runs on a single host · **offline / air-gapped mode** for regulated networks |
 
-## 📊 Platform Overview
+## 📊 Platform Overview:
 
 CyberLure combines five major capabilities into one security-awareness platform:
-
-Mandatory Training
-Phishing Awareness
-Phishing Campaigns
-IT Training
-Gamification
+- Mandatory Training
+- Phishing Awareness
+- Phishing Campaigns
+- IT Training
+- Gamification
 
 These capabilities are supported by organization-wide dashboards, executive and detailed reporting, user management, role-based access control, and integrations such as SMTP, LDAP/Active Directory, and NTP.
 
-1️⃣ Mandatory Training
+### 1️⃣ Mandatory Training:
 
 Mandatory Training provides organization-specific policy and compliance training that employees are required to complete during onboarding and throughout their employment.
 
-Training is delivered through a video → assessment → completion workflow.
-
-Example training areas
-Clear Desk Policy
-Acceptable Use Policy
-Information Security Policies
+Training is delivered through a video → assessment → completion workflow. These include:
+- Clear Desk Policy
+- Acceptable Use Policy
+- Information Security Policies
 New employee onboarding
 Periodic policy refreshers
 Quarterly mandatory training
