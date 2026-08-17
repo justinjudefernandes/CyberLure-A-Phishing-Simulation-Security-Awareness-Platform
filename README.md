@@ -21,74 +21,16 @@ The platform enables security teams to:
 The platform was designed to operate without relying on external SaaS platforms or continuous internet connectivity.
 
 ## 🏗️ Architecture:
-CyberLure is a single self-hosted Flask application that runs the entire security-awareness lifecycle in one place — no external SaaS, and no internet dependency at runtime. The security team drives everything from the admin console; recipients interact only through emails, training pages, and games; and every interaction feeds a central tracking and scoring layer that powers the dashboards and the automated remediation loop.
-
-The security-awareness lifecycle:
-flowchart LR
-## 🏗️ Architecture:
 
 CyberLure is a single self-hosted Flask application that runs the entire security-awareness lifecycle in one place — no external SaaS, and no internet dependency at runtime. The security team drives everything from the admin console; recipients interact only through emails, training pages, and games; and every interaction feeds a central tracking and scoring layer that powers the dashboards and the automated remediation loop.
 
 **The security-awareness lifecycle:**
 
-```mermaid
-flowchart LR
-    T["🎓 Train"] --> S["🎣 Simulate"]
-    S --> M["📊 Measure"]
-    M --> R["🔁 Remediate"]
-    R --> V["✅ Verify"]
-    V --> RM["📈 Re-measure"]
-    RM --> T
-```
+<img width="720" height="252" alt="architecture-lifecycle" src="https://github.com/user-attachments/assets/195d5410-a629-4b24-8d38-e5338f630456" />
 
 **System overview:**
 
-```mermaid
-flowchart TD
-    subgraph Admin["🛡️ Security Team · Admin Console"]
-        A1["Campaign builder & training assignment"]
-        A2["Dashboards & human-risk analytics"]
-        A3["Reports · Settings · RBAC"]
-    end
-
-    subgraph Core["⚙️ CyberLure Platform · Flask · self-hosted / offline"]
-        C1["Training & assessment engine"]
-        C2["Phishing simulation engine"]
-        C3["Games hub"]
-        C4["Tracking & risk scoring"]
-        DB[("SQLite / SQL database")]
-    end
-
-    subgraph People["👥 Employees"]
-        E1["Email inbox"]
-        E2["Training & personal Security Hub"]
-        E3["Security games"]
-    end
-
-    subgraph Int["🔌 Integrations"]
-        I1["SMTP"]
-        I2["LDAP / AD"]
-        I3["NTP"]
-    end
-
-    I2 -. "import recipients" .-> A1
-    A1 --> C1
-    A1 --> C2
-    A1 --> C3
-    C2 -- "send lures" --> I1
-    I1 --> E1
-    C1 -- "assign training" --> E2
-    C3 --> E3
-    E1 -- "open / click / report" --> C4
-    E2 -- "watch % / assessment" --> C4
-    E3 -- "scores" --> C4
-    C4 --> DB
-    DB --> A2
-    A2 --> A3
-    C4 -- "fail -> auto-assign remedial" --> C1
-```
-
-
+<img width="720" height="624" alt="architecture-overview" src="https://github.com/user-attachments/assets/3ca9aa89-a9ea-4eae-9eda-0a1943de3877" />
 
 ## 🧰 Technology Stack:
 | Layer | Technology |
