@@ -34,12 +34,12 @@ The platform was designed to operate without relying on external SaaS platforms 
 
 ## 📊 Platform Overview:
 
-CyberLure combines five major capabilities into one security-awareness platform:
-❶ **Mandatory Training**<br>
-❷ **Phishing Awareness**<br>
-❸ **Phishing Campaigns**<br>
-❹ **IT Training**<br>
-❺ **Gamification**
+CyberLure combines five major capabilities into one security-awareness platform:<br>
+🎓 **Mandatory Training**<br>
+🛡️ **Phishing Awareness**<br>
+🎣 **Phishing Campaigns**<br>
+🖥️ **IT Training**<br>
+🎮 **Gamification**
 
 These capabilities are supported by organization-wide dashboards, executive and detailed reporting, user management, role-based access control, and integrations such as SMTP, LDAP/Active Directory, and NTP.
 
