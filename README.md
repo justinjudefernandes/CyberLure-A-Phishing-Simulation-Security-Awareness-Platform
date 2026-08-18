@@ -109,7 +109,7 @@ Each recipient has an individual tracking record that captures key campaign acti
 CyberLure also includes skills-based IT and cybersecurity training, divided into two areas:
 
 #### 1. IT Generic Training:
-Foundational subjects designed to build core IT and cybersecurity knowledge, including:
+Foundational subjects designed to build core IT and cybersecurity knowledge, including but not limited to:
 - Networking Fundamentals
 - Information Security Fundamentals
 - IT Fundamentals
@@ -117,7 +117,7 @@ Foundational subjects designed to build core IT and cybersecurity knowledge, inc
 Where appropriate, the platform can recommend relevant certification pathways such as CompTIA ITF+, A+, and Security+.
 
 #### 2. IT Specific Training:
-More specialized technical subjects focused on practical IT and cybersecurity skills, including:
+More specialized technical subjects focused on practical IT and cybersecurity skills, including but not limited to:
 - Packet Analysis with Wireshark
 - Network Security
 - Security Monitoring
