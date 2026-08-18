@@ -22,12 +22,13 @@ The platform was designed to operate without relying on external SaaS platforms 
 ## 🏗️ Architecture:
 
 CyberLure is a single self-hosted Flask application that runs the entire security-awareness lifecycle in one place — no external SaaS, and no internet dependency at runtime. The security team drives everything from the admin console; recipients interact only through emails, training pages, and games; and every interaction feeds a central tracking and scoring layer that powers the dashboards and the automated remediation loop.
-<br>
-**The Security-Awareness Lifecycle:**
+
+### **The Security-Awareness Lifecycle:**
 
 <img width="1000" height="300" alt="CyberLure_Security_Awareness_Lifecycle" src="https://github.com/user-attachments/assets/999f3c7b-ac87-426d-b68a-9592a6779883" />
-<br>
-**System Overview:**
+<br/>
+
+### **System Overview:**
 
 <img width="1000" height="300" alt="CyberLure_System_Overview" src="https://github.com/user-attachments/assets/36dde92b-d8ee-43d7-879a-f872dacc99ad" />
 
