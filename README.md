@@ -78,6 +78,8 @@ The Mandatory Training dashboard provides administrators with visibility into ke
 
 Each employee receives a focused learning experience by viewing their assigned training content and completing the corresponding assessment. The platform records their progress, assessment results, and completion status, providing administrators with a clear view of training compliance across the organization.
 
+📌 Refer to the below screenshots:
+
 ### 🛡️ **Phishing Awareness:**
 Phishing Awareness provides educational content designed to help employees understand how cyberattacks work and how to recognize, avoid, and respond to common threats.
 
@@ -91,6 +93,8 @@ Example topics include:
 - Other current threat techniques
 
 The platform supports awareness content relevant to both regional and global threat landscapes. Awareness campaigns track video engagement, completion status, and assessment results for each individual recipient.
+
+📌 Refer to the below screenshots:
 
 ### 🎣 **Phishing Campaigns:**
 The phishing-simulation component enables security teams to conduct controlled, authorized simulations and measure how employees respond to realistic phishing scenarios. Campaigns can simulate common attack techniques, including:
@@ -106,6 +110,8 @@ The phishing-simulation component enables security teams to conduct controlled, 
 
 Each recipient has an individual tracking record that captures key campaign activity, from ```Delivered → Opened → Clicked → Submitted → Reported```. Simulation failures can automatically trigger remedial training, followed by reminders and escalation workflows to reinforce security awareness. The phishing functionality is intended exclusively for authorized security-awareness and security-testing environments.
 
+📌 Refer to the below screenshots:
+
 ### 🖥️ **IT Training:**
 CyberLure also includes skills-based IT and cybersecurity training, divided into two areas:
 
@@ -117,11 +123,15 @@ Foundational subjects designed to build core IT and cybersecurity knowledge, inc
 
 Where appropriate, the platform can recommend relevant certification pathways such as CompTIA ITF+, A+, and Security+.
 
+📌 Refer to the below screenshots:
+
 #### 2. IT Specific Training:
 More specialized technical subjects focused on practical IT and cybersecurity skills, including but not limited to:
 - Packet Analysis with Wireshark
 - Network Security
 - Security Monitoring
+
+📌 Refer to the below screenshots:
 
 ### 🎮 **Gamification:**
 The Games Hub provides interactive security-awareness exercises that reinforce concepts introduced through security training and phishing simulations. The games are organized into three progressive tiers, covering core cybersecurity skills, a broader range of threats, and behavior-based security judgement.
@@ -144,6 +154,8 @@ The Games Hub provides interactive security-awareness exercises that reinforce c
 - 📄 Data Classification — Classify information according to its sensitivity and handling requirements.
 - 🧠 Deepfake Detective — Identify whether audio, video, or images are genuine or AI-generated.
 
+📌 Refer to the below screenshots:
+
 ## 🧩 **Additional Capabilities:**
 
 ### 📊 **Dashboards & Human-Risk Analytics:**
@@ -162,6 +174,8 @@ The dashboards provide visibility into:
 
 Administrators can drill down to the individual-user level to review training assignments, video progress, assessment attempts and scores, phishing activity, and remediation status. Employees also have access to a personal, password-less Security Hub where they can view their assigned activities and security-readiness information.
 
+📌 Refer to the below screenshots:
+
 ### 📈 Reporting:
 CyberLure provides both executive-level and detailed operational reporting, enabling leadership and security teams to view human-risk information at the level most relevant to them. Executive Reporting provides leadership with a high-level overview of:
 - Human-risk posture
@@ -173,6 +187,8 @@ CyberLure provides both executive-level and detailed operational reporting, enab
 
 Provides security and operational teams with recipient-level details, including outstanding training, assessment results, phishing activity, and remediation requirements, with CSV export capabilities for further analysis.
 
+📌 Refer to the below screenshots:
+
 ### ⚙️ **Administration & Integrations:**
 The administration layer provides centralized management of users, roles, permissions, and external platform integrations as below:
 - User management
@@ -182,6 +198,8 @@ The administration layer provides centralized management of users, roles, permis
   - SMTP — Email delivery
   - LDAP / Active Directory — Directory-based user import
   - NTP — Time synchronization
+
+📌 Refer to the below screenshots:
  
 ## 🔒 Security, Privacy & Responsible Use:
 CyberLure sends simulated phishing and handles employee behavioural data, so it was built to be safe and self-contained by design.
