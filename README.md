@@ -2,7 +2,7 @@
 > ##### (Mandatory Training · Phishing Awareness · Phishing Campaigns · IT Training · Gamification)
 
 ## 🎯 Objective:
-Security awareness is most effective when organizations can continuously educate, test, measure, and remediate employee behaviour. The objective of CyberLure was to build a complete security-awareness lifecycle rather than a standalone phishing simulator:
+Security awareness is most effective when organizations can continuously educate, test, measure, and remediate employee behavior. The objective of CyberLure was to build a solution that would encompass the complete security-awareness lifecycle rather than a standalone phishing simulator:
 
               Train → Simulate → Measure → Remediate → Verify → Re-measure
 
