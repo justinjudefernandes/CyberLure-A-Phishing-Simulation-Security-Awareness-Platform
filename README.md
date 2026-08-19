@@ -59,7 +59,7 @@ These capabilities are supported by organization-wide dashboards, executive and 
 AI tools were used as development and content-assistance tools throughout the project to accelerate the creation of training and security-awareness content. After reviewing the relevant training materials, Claude was used to generate initial drafts of assessment questions, quizzes, learning content, and related materials based on the learning objectives and subject matter. All generated content was reviewed, refined, and incorporated into the application's workflows as appropriate. The platform's training workflows, assessment functionality, scoring, tracking, campaign management, gamification, dashboards, and integrations were developed as part of the project.
 
 ### 🎓 **Mandatory Training:**
-Mandatory Training delivers organization-specific policy, security, and compliance training that employees are required to complete during onboarding and throughout their employment. The platform follows a structured video → assessment → completion workflow, enabling organizations to monitor both employee engagement with the training content and their understanding of the material.
+Mandatory Training delivers organization-specific policy, security, and compliance training that employees are required to complete during onboarding and throughout their employment. The platform follows a ```structured video → assessment → completion workflow```, enabling organizations to monitor both employee engagement with the training content and their understanding of the material.
 
 Examples of mandatory training include:
 - Clear Desk Policy
