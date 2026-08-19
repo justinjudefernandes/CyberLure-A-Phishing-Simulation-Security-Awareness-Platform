@@ -247,6 +247,12 @@ Administrators can drill down to the individual-user level to review training as
 
 📌 Refer to the below screenshots: (left to right)
 
+<img width="390" height="230" alt="01-overall-dashboard" src="https://github.com/user-attachments/assets/bce07a43-d6dc-42b5-8873-ce9b1c46d4f6" />
+<img width="390" height="230" alt="02-executive-dashboard" src="https://github.com/user-attachments/assets/0b5db85b-2ee3-4857-8192-4158a6492c5b" />
+<img width="390" height="230" alt="03-per-user-attempts" src="https://github.com/user-attachments/assets/7a7bf9fb-54d4-4868-b12a-3769e5b612ea" />
+<img width="390" height="230" alt="04-employee-access-certificates" src="https://github.com/user-attachments/assets/7c69c1c2-52b0-4537-8be4-c9d2e3f77946" />
+<img width="785" height="350" alt="05-personal-security-hub" src="https://github.com/user-attachments/assets/8e7bf88d-8ee9-494a-b56f-9842c49bbcf9" />
+
 ### 📈 Reporting:
 CyberLure provides both executive-level and detailed operational reporting, enabling leadership and security teams to view human-risk information at the level most relevant to them. Executive Reporting provides leadership with a high-level overview of:
 - Human-risk posture
