@@ -203,8 +203,8 @@ The Games Hub provides interactive security-awareness exercises that reinforce c
 <img width="260" height="230" alt="10-usb-drop-dilemma" src="https://github.com/user-attachments/assets/71315748-994a-4f4e-96da-391115d1652f" />
 <img width="260" height="230" alt="11-insider-threat-watch" src="https://github.com/user-attachments/assets/5f2bf306-3965-409d-ada5-604362109262" />
 <img width="260" height="230" alt="12-data-classification" src="https://github.com/user-attachments/assets/6474913f-a68f-41f2-a31d-3eb5bc65fa6f" />
-<img width="390" height="230" alt="13-deepfake-detective" src="https://github.com/user-attachments/assets/1dcb2a33-ca2b-4381-b152-6b29f5b50312" />
-<img width="390" height="230" alt="14-Certificate" src="https://github.com/user-attachments/assets/8c694557-9492-4f1a-8747-ab40f743bfb7" />
+<img width="395" height="230" alt="13-deepfake-detective" src="https://github.com/user-attachments/assets/1dcb2a33-ca2b-4381-b152-6b29f5b50312" />
+<img width="395" height="230" alt="14-Certificate" src="https://github.com/user-attachments/assets/8c694557-9492-4f1a-8747-ab40f743bfb7" />
 
 
 
