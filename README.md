@@ -146,7 +146,6 @@ Simulation failures can automatically trigger remedial training, followed by rem
 <img width="390" height="230" alt="07-reported-after-falling" src="https://github.com/user-attachments/assets/9f795193-708b-4f67-90c7-a96cfeaff932" />
 <img width="785" height="350" alt="08-campaign-detail-behaviour-funnel" src="https://github.com/user-attachments/assets/fc206a01-ec57-47d7-ace4-a76eced5fbb4" />
 
-
 ### 🖥️ **IT Training:**
 CyberLure also includes skills-based IT and cybersecurity training, divided into two areas:
 
@@ -160,6 +159,17 @@ Where appropriate, the platform can recommend relevant certification pathways su
 
 📌 Refer to the below screenshots: (left to right)
 
+<img width="390" height="230" alt="01-create-it-generic-campaign" src="https://github.com/user-attachments/assets/fa7dca29-92a4-42c2-ae2e-1c187f9f46e7" />
+<img width="390" height="230" alt="02-it-training-dashboard" src="https://github.com/user-attachments/assets/28cf9875-f0c7-4881-8c19-9ee201be48c0" />
+<img width="390" height="230" alt="03-employee-email" src="https://github.com/user-attachments/assets/4b66e099-f80b-42de-afcc-3d1249cec78e" />
+<img width="390" height="230" alt="04-personal-dashboard" src="https://github.com/user-attachments/assets/0f5cec88-d3cc-437f-bbe5-2a050ae8d4aa" />
+<img width="390" height="230" alt="05-training-video-player" src="https://github.com/user-attachments/assets/bdb04c86-5f11-4411-a001-240f751e45ea" />
+<img width="390" height="230" alt="06-video-progress-forward-cap" src="https://github.com/user-attachments/assets/a46edb2e-e768-48cb-922d-c6ccffc9d0ce" />
+<img width="390" height="230" alt="07-assessment" src="https://github.com/user-attachments/assets/b92625cf-1701-4288-9dbb-eae889c9ebd5" />
+<img width="390" height="230" alt="08-campaign-detail-progress" src="https://github.com/user-attachments/assets/5589c67a-fad6-47f4-8831-d4d818989ddb" />
+<img width="785" height="350" alt="09-certificate-issued" src="https://github.com/user-attachments/assets/370c9cbe-2bec-44b6-a93c-9a3479a77102" />
+
+
 #### 2. IT Specific Training:
 More specialized technical subjects focused on practical IT and cybersecurity skills, including but not limited to:
 - Packet Analysis with Wireshark
@@ -167,6 +177,19 @@ More specialized technical subjects focused on practical IT and cybersecurity sk
 - Security Monitoring
 
 📌 Refer to the below screenshots: (left to right)
+
+<img width="390" height="230" alt="01-create-it-specific-campaign" src="https://github.com/user-attachments/assets/45372d4e-e5f7-47db-82a7-468e4efc9cf8" />
+<img width="390" height="230" alt="02-it-training-dashboard" src="https://github.com/user-attachments/assets/619722ce-9967-4b43-a951-2509e9c295d6" />
+<img width="390" height="230" alt="03-employee-email" src="https://github.com/user-attachments/assets/bf76308d-032f-4b36-abf1-063ad156fbee" />
+<img width="390" height="230" alt="04-personal-dashboard" src="https://github.com/user-attachments/assets/d070fb1e-c91e-4b93-9771-f3c8e3c044b7" />
+<img width="390" height="230" alt="05-training-video-player" src="https://github.com/user-attachments/assets/8dbfd628-1c4e-4d45-8122-fb1a8292af9b" />
+<img width="390" height="230" alt="06-video-progress-forward-cap" src="https://github.com/user-attachments/assets/3be0dcab-bd43-4978-b3b0-ebd2db484049" />
+<img width="390" height="230" alt="07-assessment" src="https://github.com/user-attachments/assets/e8f3fafb-d19a-4f35-b86a-50963b56c1fc" />
+<img width="390" height="230" alt="08-campaign-detail-progress" src="https://github.com/user-attachments/assets/459c3a8b-3267-47bc-bec7-d66052040e63" />
+<img width="785" height="350" alt="09-certificate-issued" src="https://github.com/user-attachments/assets/4277d214-c1df-4860-a207-d98fdf9e51c0" />
+
+
+
 
 ### 🎮 **Gamification:**
 The Games Hub provides interactive security-awareness exercises that reinforce concepts introduced through security training and phishing simulations. The games are organized into three progressive tiers, covering core cybersecurity skills, a broader range of threats, and behavior-based security judgement.
