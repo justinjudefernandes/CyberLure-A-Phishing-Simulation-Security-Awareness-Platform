@@ -188,9 +188,6 @@ More specialized technical subjects focused on practical IT and cybersecurity sk
 <img width="390" height="230" alt="08-campaign-detail-progress" src="https://github.com/user-attachments/assets/459c3a8b-3267-47bc-bec7-d66052040e63" />
 <img width="785" height="350" alt="09-certificate-issued" src="https://github.com/user-attachments/assets/4277d214-c1df-4860-a207-d98fdf9e51c0" />
 
-
-
-
 ### 🎮 **Gamification:**
 The Games Hub provides interactive security-awareness exercises that reinforce concepts introduced through security training and phishing simulations. The games are organized into three progressive tiers, covering core cybersecurity skills, a broader range of threats, and behavior-based security judgement.
 
@@ -229,8 +226,6 @@ The Games Hub provides interactive security-awareness exercises that reinforce c
 <img width="260" height="230" alt="12-data-classification" src="https://github.com/user-attachments/assets/6474913f-a68f-41f2-a31d-3eb5bc65fa6f" />
 <img width="260" height="230" alt="13-deepfake-detective" src="https://github.com/user-attachments/assets/1dcb2a33-ca2b-4381-b152-6b29f5b50312" />
 <img width="260" height="230" alt="14-Certificate" src="https://github.com/user-attachments/assets/8c694557-9492-4f1a-8747-ab40f743bfb7" />
-
-
 
 ## 🧩 **Additional Capabilities:**
 
@@ -276,6 +271,12 @@ The administration layer provides centralized management of users, roles, permis
   - NTP — Time synchronization
 
 📌 Refer to the below screenshots: (left to right)
+
+<img width="390" height="230" alt="01-user-management" src="https://github.com/user-attachments/assets/69c67bca-e12f-41f7-aa8e-4f92d9ec62c7" />
+<img width="390" height="230" alt="02-roles-permissions" src="https://github.com/user-attachments/assets/bda48c8d-1cf2-48c0-a62b-95e30d38e2e1" />
+<img width="390" height="230" alt="03-email-smtp-integration" src="https://github.com/user-attachments/assets/71b26674-88f6-41e4-a34e-3e54c2719656" />
+<img width="390" height="230" alt="04-ldap-active-directory" src="https://github.com/user-attachments/assets/0ccbb26a-1e4f-4183-bdab-8bc38817b928" />
+<img width="785" height="350" alt="05-ntp-time-sync" src="https://github.com/user-attachments/assets/7ab8d48d-9662-4b04-b032-6e2cba198ff0" />
  
 ## 🔒 Security, Privacy & Responsible Use:
 CyberLure sends simulated phishing and handles employee behavioural data, so it was built to be safe and self-contained by design.
