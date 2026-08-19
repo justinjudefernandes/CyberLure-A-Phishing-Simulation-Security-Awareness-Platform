@@ -266,6 +266,10 @@ Provides security and operational teams with recipient-level details, including 
 
 📌 Refer to the below screenshots: (left to right)
 
+<img width="390" height="230" alt="01-executive-summary-report-pdf" src="https://github.com/user-attachments/assets/893e367b-fc9c-4320-a666-6c801f5e5672" />
+<img width="390" height="230" alt="02-detailed-report-pdf" src="https://github.com/user-attachments/assets/6ea0c37a-51d9-4141-8e4e-1f34cea3b4b1" />
+
+
 ### ⚙️ **Administration & Integrations:**
 The administration layer provides centralized management of users, roles, permissions, and external platform integrations as below:
 - User management
