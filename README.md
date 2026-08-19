@@ -128,10 +128,23 @@ The phishing-simulation component enables security teams to conduct controlled, 
 - Cloud-sharing lures
 - MFA-fatigue scenarios
 
-Each recipient has an individual tracking record that captures key campaign activity, from ```Delivered → Opened → Clicked → Submitted → Reported```. Simulation failures can automatically trigger remedial training, followed by reminders and escalation workflows to reinforce security awareness. The phishing functionality is intended exclusively for authorized security-awareness and security-testing environments.
+Each recipient has an individual tracking record that captures key campaign activity, from ```Delivered → Opened → Clicked → Submitted → Reported```
+
+Employees can report a simulated phishing email by clicking the “Report Phishing” button. If the employee correctly identifies and reports the phishing email before falling for the simulation, they are redirected to a “Good Catch” page, reinforcing positive security behavior.
+
+If the employee has already fallen for the simulated phishing attack and subsequently clicks the “Report Phishing” button, they are redirected to a page displaying: “Reporting is the right instinct — but this one had already caught you.” This reinforces that reporting remains the right action, while highlighting that the interaction with the simulated threat had already occurred.
+
+Simulation failures can automatically trigger remedial training, followed by reminders and escalation workflows to reinforce security awareness. The phishing functionality is intended exclusively for authorized security-awareness and security-testing environments.
 
 📌 Refer to the below screenshots: (left to right)
 
+<img width="390" height="230" alt="01-create-phishing-campaign" src="https://github.com/user-attachments/assets/6ee64e6b-e2fb-414f-a6ce-89b0764e8506" />
+<img width="390" height="230" alt="02-phishing-campaigns-dashboard" src="https://github.com/user-attachments/assets/495cb897-2931-4aff-b9e1-67fe4801313e" />
+<img width="390" height="230" alt="03-lure-email" src="https://github.com/user-attachments/assets/ea61a173-432f-47b1-aac5-4f81356cdb2a" />
+<img width="390" height="230" alt="05-phishing-education-page" src="https://github.com/user-attachments/assets/c9915aff-8b30-4bd1-a0b9-b6c32e02f98e" />
+<img width="390" height="230" alt="06-reported-good-catch" src="https://github.com/user-attachments/assets/add58fb1-5420-4dfc-bb5f-49a5b46a95c3" />
+<img width="390" height="230" alt="07-reported-after-falling" src="https://github.com/user-attachments/assets/4d48e999-7d2b-4515-825c-39a910184a74" />
+<img width="785" height="350" alt="08-campaign-detail-behaviour-funnel" src="https://github.com/user-attachments/assets/fc206a01-ec57-47d7-ace4-a76eced5fbb4" />
 
 
 ### 🖥️ **IT Training:**
