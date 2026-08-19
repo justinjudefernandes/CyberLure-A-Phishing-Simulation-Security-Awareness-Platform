@@ -78,7 +78,7 @@ The Mandatory Training dashboard provides administrators with visibility into ke
 
 Each employee receives a focused learning experience by viewing their assigned training content and completing the corresponding assessment. The platform records their progress, assessment results, and completion status, providing administrators with a clear view of training compliance across the organization.
 
-📌 Refer to the below screenshots:
+📌 Refer to the below screenshots: (left to right)
 
 <img width="390" height="230" alt="01-create-training-campaign" src="https://github.com/user-attachments/assets/4a54e7b0-9636-4572-83b3-6bfa52878871" />
 <img width="390" height="230" alt="02-mandatory-training-dashboard" src="https://github.com/user-attachments/assets/6fac07cf-2410-4a29-b98f-d6590a85d845" />
@@ -89,8 +89,6 @@ Each employee receives a focused learning experience by viewing their assigned t
 <img width="390" height="230" alt="07-assessment" src="https://github.com/user-attachments/assets/3b82621d-e8f6-418c-bdde-f9314948703c" />
 <img width="390" height="230" alt="08-campaign-detail-progress" src="https://github.com/user-attachments/assets/818e94f5-0b5b-4bd8-b69a-a7d93246998d" />
 <img width="785" height="350" alt="09-certificate-issued" src="https://github.com/user-attachments/assets/acbcfc37-e170-488d-8d6f-a81949f0130a" />
-
-
 
 ### 🛡️ **Phishing Awareness:**
 Phishing Awareness provides educational content designed to help employees understand how cyberattacks work and how to recognize, avoid, and respond to common threats.
@@ -106,7 +104,17 @@ Example topics include:
 
 The platform supports awareness content relevant to both regional and global threat landscapes. Awareness campaigns track video engagement, completion status, and assessment results for each individual recipient.
 
-📌 Refer to the below screenshots:
+📌 Refer to the below screenshots: (left to right)
+
+<img width="390" height="230" alt="01-create-awareness-campaign" src="https://github.com/user-attachments/assets/8e4b1af1-b7e2-4317-b0f1-96a685e8736c" />
+<img width="390" height="230" alt="02-phishing-awareness-dashboard" src="https://github.com/user-attachments/assets/6141dbe7-60c9-41cd-988d-20910e53d2db" />
+<img width="390" height="230" alt="03-awareness-email" src="https://github.com/user-attachments/assets/c230e916-f0ff-4d49-9928-b15ba9531f88" />
+<img width="390" height="230" alt="04-personal-dashboard" src="https://github.com/user-attachments/assets/9f7b69f0-2a41-42c6-a77c-ea9796bcf7ee" />
+<img width="390" height="230" alt="05-awareness-video-player" src="https://github.com/user-attachments/assets/9c2a7f97-1163-4e6d-9df0-8dc67f6f6e70" />
+<img width="390" height="230" alt="06-video-progress-forward-cap" src="https://github.com/user-attachments/assets/50a2be99-407f-43d1-90df-4c54d26e76cd" />
+<img width="390" height="230" alt="07-assessment" src="https://github.com/user-attachments/assets/3cd3b02a-830b-4b20-84d5-ef42dcea9a85" />
+<img width="390" height="230" alt="08-awareness-campaign-detail-progress" src="https://github.com/user-attachments/assets/57128b8b-eb2c-4241-9135-103c593cb423" />
+<img width="785" height="350" alt="09-certificate-issued" src="https://github.com/user-attachments/assets/39f00dbb-ffc1-4b52-94f1-f123c0243f52" />
 
 ### 🎣 **Phishing Campaigns:**
 The phishing-simulation component enables security teams to conduct controlled, authorized simulations and measure how employees respond to realistic phishing scenarios. Campaigns can simulate common attack techniques, including:
@@ -122,7 +130,8 @@ The phishing-simulation component enables security teams to conduct controlled, 
 
 Each recipient has an individual tracking record that captures key campaign activity, from ```Delivered → Opened → Clicked → Submitted → Reported```. Simulation failures can automatically trigger remedial training, followed by reminders and escalation workflows to reinforce security awareness. The phishing functionality is intended exclusively for authorized security-awareness and security-testing environments.
 
-📌 Refer to the below screenshots:
+📌 Refer to the below screenshots: (left to right)
+
 
 ### 🖥️ **IT Training:**
 CyberLure also includes skills-based IT and cybersecurity training, divided into two areas:
@@ -135,7 +144,7 @@ Foundational subjects designed to build core IT and cybersecurity knowledge, inc
 
 Where appropriate, the platform can recommend relevant certification pathways such as CompTIA ITF+, A+, and Security+.
 
-📌 Refer to the below screenshots:
+📌 Refer to the below screenshots: (left to right)
 
 #### 2. IT Specific Training:
 More specialized technical subjects focused on practical IT and cybersecurity skills, including but not limited to:
@@ -143,7 +152,7 @@ More specialized technical subjects focused on practical IT and cybersecurity sk
 - Network Security
 - Security Monitoring
 
-📌 Refer to the below screenshots:
+📌 Refer to the below screenshots: (left to right)
 
 ### 🎮 **Gamification:**
 The Games Hub provides interactive security-awareness exercises that reinforce concepts introduced through security training and phishing simulations. The games are organized into three progressive tiers, covering core cybersecurity skills, a broader range of threats, and behavior-based security judgement.
@@ -166,7 +175,7 @@ The Games Hub provides interactive security-awareness exercises that reinforce c
 - 📄 Data Classification — Classify information according to its sensitivity and handling requirements.
 - 🧠 Deepfake Detective — Identify whether audio, video, or images are genuine or AI-generated.
 
-📌 Refer to the below screenshots:
+📌 Refer to the below screenshots: (left to right)
 
 ## 🧩 **Additional Capabilities:**
 
@@ -186,7 +195,7 @@ The dashboards provide visibility into:
 
 Administrators can drill down to the individual-user level to review training assignments, video progress, assessment attempts and scores, phishing activity, and remediation status. Employees also have access to a personal, password-less Security Hub where they can view their assigned activities and security-readiness information.
 
-📌 Refer to the below screenshots:
+📌 Refer to the below screenshots: (left to right)
 
 ### 📈 Reporting:
 CyberLure provides both executive-level and detailed operational reporting, enabling leadership and security teams to view human-risk information at the level most relevant to them. Executive Reporting provides leadership with a high-level overview of:
@@ -199,7 +208,7 @@ CyberLure provides both executive-level and detailed operational reporting, enab
 
 Provides security and operational teams with recipient-level details, including outstanding training, assessment results, phishing activity, and remediation requirements, with CSV export capabilities for further analysis.
 
-📌 Refer to the below screenshots:
+📌 Refer to the below screenshots: (left to right)
 
 ### ⚙️ **Administration & Integrations:**
 The administration layer provides centralized management of users, roles, permissions, and external platform integrations as below:
@@ -211,7 +220,7 @@ The administration layer provides centralized management of users, roles, permis
   - LDAP / Active Directory — Directory-based user import
   - NTP — Time synchronization
 
-📌 Refer to the below screenshots:
+📌 Refer to the below screenshots: (left to right)
  
 ## 🔒 Security, Privacy & Responsible Use:
 CyberLure sends simulated phishing and handles employee behavioural data, so it was built to be safe and self-contained by design.
