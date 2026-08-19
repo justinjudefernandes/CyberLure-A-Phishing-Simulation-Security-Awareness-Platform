@@ -191,6 +191,23 @@ The Games Hub provides interactive security-awareness exercises that reinforce c
 
 📌 Refer to the below screenshots: (left to right)
 
+<img width="390" height="230" alt="01-games-hub" src="https://github.com/user-attachments/assets/7c802615-798a-4912-9494-a703d373e52c" />
+<img width="390" height="230" alt="02-spot-the-phish" src="https://github.com/user-attachments/assets/2b3c066a-2c8a-4bce-b0e0-a8ba75d0296a" />
+<img width="390" height="230" alt="03-link-inspector" src="https://github.com/user-attachments/assets/1b36d2a0-28dc-4051-9aa5-af8065a4eb4f" />
+<img width="390" height="230" alt="04-password-fortress" src="https://github.com/user-attachments/assets/88de57ac-7164-45f8-afce-ca0c23f7bd91" />
+<img width="390" height="2000" alt="05-cyber-quiz-blitz" src="https://github.com/user-attachments/assets/dc6b15af-4653-499a-add8-cdc621a11112" />
+<img width="390" height="230" alt="06-smishing-challenge" src="https://github.com/user-attachments/assets/1e0a8a75-3728-4ab2-8af5-1f84d9bebc2c" />
+<img width="390" height="230" alt="07-qr-code-detective" src="https://github.com/user-attachments/assets/5f5b9f2d-7372-487b-af5e-768fe6ae6cbb" />
+<img width="390" height="230" alt="08-mfa-fatigue-defender" src="https://github.com/user-attachments/assets/ce56a7f1-ad68-4d42-8407-b181f8102b86" />
+<img width="390" height="230" alt="09-oauth-consent-check" src="https://github.com/user-attachments/assets/46130132-f7a1-45b5-acad-13340f91a783" />
+<img width="390" height="230" alt="10-usb-drop-dilemma" src="https://github.com/user-attachments/assets/71315748-994a-4f4e-96da-391115d1652f" />
+<img width="390" height="230" alt="11-insider-threat-watch" src="https://github.com/user-attachments/assets/5f2bf306-3965-409d-ada5-604362109262" />
+<img width="390" height="230" alt="12-data-classification" src="https://github.com/user-attachments/assets/6474913f-a68f-41f2-a31d-3eb5bc65fa6f" />
+<img width="390" height="230" alt="13-deepfake-detective" src="https://github.com/user-attachments/assets/1dcb2a33-ca2b-4381-b152-6b29f5b50312" />
+<img width="390" height="230" alt="14-Certificate" src="https://github.com/user-attachments/assets/8c694557-9492-4f1a-8747-ab40f743bfb7" />
+
+
+
 ## 🧩 **Additional Capabilities:**
 
 ### 📊 **Dashboards & Human-Risk Analytics:**
