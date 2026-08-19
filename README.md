@@ -114,7 +114,7 @@ The platform supports awareness content relevant to both regional and global thr
 <img width="390" height="230" alt="06-video-progress-forward-cap" src="https://github.com/user-attachments/assets/50a2be99-407f-43d1-90df-4c54d26e76cd" />
 <img width="390" height="230" alt="07-assessment" src="https://github.com/user-attachments/assets/3cd3b02a-830b-4b20-84d5-ef42dcea9a85" />
 <img width="390" height="230" alt="08-awareness-campaign-detail-progress" src="https://github.com/user-attachments/assets/57128b8b-eb2c-4241-9135-103c593cb423" />
-<img width="785" height="230" alt="09-certificate-issued" src="https://github.com/user-attachments/assets/318fc8f3-98c6-44ba-b06a-47e4442e922c" />
+<img width="785" height="350" alt="09-certificate-issued" src="https://github.com/user-attachments/assets/318fc8f3-98c6-44ba-b06a-47e4442e922c" />
 
 ### 🎣 **Phishing Campaigns:**
 The phishing-simulation component enables security teams to conduct controlled, authorized simulations and measure how employees respond to realistic phishing scenarios. Campaigns can simulate common attack techniques, including:
@@ -131,6 +131,7 @@ The phishing-simulation component enables security teams to conduct controlled, 
 Each recipient has an individual tracking record that captures key campaign activity, from ```Delivered → Opened → Clicked → Submitted → Reported```. Simulation failures can automatically trigger remedial training, followed by reminders and escalation workflows to reinforce security awareness. The phishing functionality is intended exclusively for authorized security-awareness and security-testing environments.
 
 📌 Refer to the below screenshots: (left to right)
+
 
 
 ### 🖥️ **IT Training:**
