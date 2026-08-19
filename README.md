@@ -141,9 +141,9 @@ Simulation failures can automatically trigger remedial training, followed by rem
 <img width="390" height="230" alt="01-create-phishing-campaign" src="https://github.com/user-attachments/assets/6ee64e6b-e2fb-414f-a6ce-89b0764e8506" />
 <img width="390" height="230" alt="02-phishing-campaigns-dashboard" src="https://github.com/user-attachments/assets/495cb897-2931-4aff-b9e1-67fe4801313e" />
 <img width="390" height="230" alt="03-lure-email" src="https://github.com/user-attachments/assets/ea61a173-432f-47b1-aac5-4f81356cdb2a" />
-<img width="390" height="230" alt="05-phishing-education-page" src="https://github.com/user-attachments/assets/c9915aff-8b30-4bd1-a0b9-b6c32e02f98e" />
-<img width="390" height="230" alt="06-reported-good-catch" src="https://github.com/user-attachments/assets/add58fb1-5420-4dfc-bb5f-49a5b46a95c3" />
-<img width="390" height="230" alt="07-reported-after-falling" src="https://github.com/user-attachments/assets/4d48e999-7d2b-4515-825c-39a910184a74" />
+<img width="390" height="230" alt="05-phishing-education-page" src="https://github.com/user-attachments/assets/1c6d801c-073a-4ae9-88be-ef2e2ab638ec" />
+<img width="390" height="230" alt="06-reported-good-catch" src="https://github.com/user-attachments/assets/cec027ec-133f-401f-85d1-10c2bc12e597" />
+<img width="390" height="230" alt="07-reported-after-falling" src="https://github.com/user-attachments/assets/9f795193-708b-4f67-90c7-a96cfeaff932" />
 <img width="785" height="350" alt="08-campaign-detail-behaviour-funnel" src="https://github.com/user-attachments/assets/fc206a01-ec57-47d7-ace4-a76eced5fbb4" />
 
 
