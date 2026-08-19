@@ -80,6 +80,18 @@ Each employee receives a focused learning experience by viewing their assigned t
 
 📌 Refer to the below screenshots:
 
+<img width="390" height="230" alt="01-create-training-campaign" src="https://github.com/user-attachments/assets/4a54e7b0-9636-4572-83b3-6bfa52878871" />
+<img width="390" height="230" alt="02-mandatory-training-dashboard" src="https://github.com/user-attachments/assets/6fac07cf-2410-4a29-b98f-d6590a85d845" />
+<img width="390" height="230" alt="03-employee-email" src="https://github.com/user-attachments/assets/3f9bce95-4a8f-4638-8a4d-1a60a9cff9f9" />
+<img width="390" height="230" alt="04-personal-dashboard" src="https://github.com/user-attachments/assets/afff3aec-cd18-4b00-a756-addbab7f8a0b" />
+<img width="390" height="230" alt="05-training-video-player" src="https://github.com/user-attachments/assets/94ec277e-f773-424d-b4d2-e9a0812849bd" />
+<img width="390" height="230" alt="06-video-progress-forward-cap" src="https://github.com/user-attachments/assets/1f61f377-112b-4a9d-a59a-0ffc2d331699" />
+<img width="390" height="230" alt="07-assessment" src="https://github.com/user-attachments/assets/3b82621d-e8f6-418c-bdde-f9314948703c" />
+<img width="390" height="230" alt="08-campaign-detail-progress" src="https://github.com/user-attachments/assets/818e94f5-0b5b-4bd8-b69a-a7d93246998d" />
+<img width="785" height="350" alt="09-certificate-issued" src="https://github.com/user-attachments/assets/acbcfc37-e170-488d-8d6f-a81949f0130a" />
+
+
+
 ### 🛡️ **Phishing Awareness:**
 Phishing Awareness provides educational content designed to help employees understand how cyberattacks work and how to recognize, avoid, and respond to common threats.
 
